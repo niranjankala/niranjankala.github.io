@@ -5,7 +5,7 @@ description: About Me page of Niranjan Singh
 theme: purple
 ---
 
-I am a web focused developer mostly working using Microsoft .Net technologies. Occasionally, I end up working on non web related projects. I am based in Abu Dhabi, United Arab Emirates and work for C4 Advanced Solution as Application Developer.
+I am a web/windows focused developer mostly working using Microsoft .Net technologies. Occasionally, I end up working on non web related projects. I am based in Noida, India and work for MothersonSumi Infotech & Designs Ltd as Module Leader.
 This is my personal website and blog where I put down my thoughts, solutions to problems and learning notes.
 
 ## Stack Overflow
