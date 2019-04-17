@@ -13,7 +13,7 @@ This is my personal website and blog where I put down my thoughts, solutions to 
 Stackoverflow is a online community I hang around a lot during my free time. You can find me answering questions on C#, ASP.NET. Here is my flair:
 
 <a href="https://stackexchange.com/users/403125/niranjan-singh">
-<img src="https://stackexchange.com/users/flair/403125.png?theme=clean" width="208" height="58" alt="profile for Abdel Olakara on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Abdel Olakara on Stack Exchange, a network of free, community-driven Q&amp;A sites">
+<img src="https://stackexchange.com/users/flair/403125.png?theme=clean" width="208" height="58" alt="profile for Niranjan Singh on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Abdel Olakara on Stack Exchange, a network of free, community-driven Q&amp;A sites">
 </a>
 
 
