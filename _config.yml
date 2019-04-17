@@ -1,0 +1,70 @@
+# Configurations
+markdown: kramdown
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
+highlighter: pygments
+
+# Needed for backward compatibility
+gems: [jekyll-paginate]
+
+# Permalinks
+permalink:        /blog/:year/:month/:day/:title
+
+# Setup
+title:            'Niranjan Singh'
+tagline:          'A Metro theme for Jekyll'
+description:      'A Sample blog using Jekyll Metro'
+url:              'https://niranjankala.github.io/'
+baseurl:          ''
+
+# Navigation
+navigation:
+- text: About
+  url: /about/
+- text: Resume
+  url: /resume/
+- text: Blog
+  url: /blog/
+- text: Tags
+  url: /tags/
+- text: Archive
+  url : /archive/
+- text: Search
+  url: /search/
+
+
+# Author Details
+author:         'Niranjan Singh'
+
+#Social Media links (Use complete URL except for email)
+dribbble:
+email:			'niranjan.kala@live.in'
+facebook:       'https://www.facebook.com/niranjan.kala'
+flickr:
+github:         'https://github.com/niranjankala'
+gplus:          ''
+instagram:
+pinterest:
+linkedin:       'https://www.linkedin.com/in/niranjankala/'
+rss:			'http://niranjankala.blogspot.com/feeds/posts/default?max-results=10'
+stackoverflow:  'https://stackoverflow.com/users/770710/niranjan-singh'
+twitter:        'https://twitter.com/niranjankala'
+
+# Google Analytics
+gahandler: 'UA-52149651-1'
+
+#if footersvg is 'true' the social media links will be shown top on the copy right in the footer
+footersvg: 'true'
+
+# Disqus
+disqushandler: 'niranjansingh'
+
+# txtpen
+txtpenhandler: 'testingblogo'
+
+# Blog Configurations
+paginate: 10 # Posts per page on the blog index
+paginate_path: '/blog/page:num'
+destination: ./_site
+
+# Custom vars
+version:          0.9x beta 2
