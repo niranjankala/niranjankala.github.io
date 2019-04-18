@@ -12,8 +12,8 @@ theme: red
                 <ul class="nav nav-pills">
                     {% for tag in site.tags %}
                     <li class="red" style="margin:5px">    
-                        {{ tag | first | slugize }}
-                        <a href="/tags/{{ tag | first | slugize| replace: ",", ""| strip }}/"> {{ tag | first }}&nbsp;<span class="badge">{{ tag | last | size}}</span></a>
+                        {{ tag | first | slugizereplace: ",", ""| strip }}
+                        <a href="/tags/{{ tag | first | slugize }}/"> {{ tag | first }}&nbsp;<span class="badge">{{ tag | last | size}}</span></a>
                     </li>
                     {% endfor %}
                 </ul>
