@@ -28,7 +28,8 @@ theme: red
             <section>
             {% capture tags %}
                 {% for tag in site.tags %}
-                    {{ tag[0]| replace: ",", ""| strip }}
+                    {% assign tagtext = tag[0] | replace: ",", ""| strip%}
+                    {{ tagtext }}
                 {% endfor %}
             {% endcapture %}
 
