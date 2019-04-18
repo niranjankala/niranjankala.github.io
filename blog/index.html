@@ -24,7 +24,7 @@ bloghome: true
 		              <div class="tags">
                   {% if post.tags %}
                   {% for tag in post.tags %}
-                     {% assign tagtext = tag | replace: ",", ""| strip%}
+                     {% assign tagtext = tag | replace: ',', ''| strip%}
                 			<a href="/tags/{{tagtext}}"><span class="label btn-orange">{{tagtext}}</span></a>
               		{% endfor %}
            		 {% else %}
