@@ -11,8 +11,7 @@ theme: red
             <section class="tags">
                 <ul class="nav nav-pills">
                     {% for tag in site.tags %}
-                    <li class="red" style="margin:5px">
-                        {{tag}}
+                    <li class="red" style="margin:5px">                        
                         <a href="/tags/{{ tag | first | slugize }}/"> {{ tag | first }}&nbsp;<span class="badge">{{ tag | last | size}}</span></a>
                     </li>
                     {% endfor %}
