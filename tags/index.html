@@ -13,7 +13,7 @@ theme: red
                     {% for tag in site.tags %}
                     {% assign tagtext = tag | replace: ",", ""| strip%}
                     <li class="red" style="margin:5px">
-                        <a href="/tags/{{ tag | first | slugize }}/"> {{ tagtext | first }}&nbsp;<span class="badge">{{ tagtext | last | size}}</span></a>
+                        <a href="/tags/{{ tagtext | first | slugize }}/"> {{ tagtext | first }}&nbsp;<span class="badge">{{ tagtext | last | size}}</span></a>
                     </li>
                     {% endfor %}
                 </ul>
@@ -41,7 +41,7 @@ theme: red
                 <ul>
                     {% for post in site.posts %}
                         {% for otag in post.tags %}  
-                            {% assign tagtext = tag | replace: ",", ""| strip%}
+                            {% assign tagtext = otag | replace: ",", ""| strip%}
                             {% if tag == tagtext %}
                                 <li class="alink"><a href="{{ post.url }}" class="red-link">{{ post.title }}</a></li>
                             {% endif %}
