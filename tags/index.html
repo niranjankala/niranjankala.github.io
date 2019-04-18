@@ -11,8 +11,9 @@ theme: red
             <section class="tags">
                 <ul class="nav nav-pills">
                     {% for tag in site.tags %}
+                    {% assign tagtext = tag | replace: ",", ""| strip%}
                     <li class="red" style="margin:5px">
-                        <a href="/tags/{{ tag | first | slugize }}/"> {{ tag | first }}&nbsp;<span class="badge">{{ tag | last | size}}</span></a>
+                        <a href="/tags/{{ tag | first | slugize }}/"> {{ tagtext | first }}&nbsp;<span class="badge">{{ tagtext | last | size}}</span></a>
                     </li>
                     {% endfor %}
                 </ul>
@@ -36,7 +37,7 @@ theme: red
             {% assign sortedtags = tags | split:',' | sort %}
 
             {% for tag in sortedtags %}
-                <h3 id="{{tag}}">{{tag}}</h3>
+            <h3 id="{{tag}}">{{tag}}</h3>
                 <ul>
                     {% for post in site.posts %}
                         {% for otag in post.tags %}  
