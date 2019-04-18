@@ -5,6 +5,7 @@ description: "How to enable docker support ASP.NET applications in Visual Studio
 tags: docker, visualstudio, dotnetcore
 cover_image: 
 canonical_url: http://niranjankala.in/post/How-to-enable-docker-support-ASPNET-applications-in-Visual-Studio
+layout: post
 ---
 
 # Introduction
