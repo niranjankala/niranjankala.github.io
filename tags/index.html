@@ -11,9 +11,9 @@ theme: red
             <section class="tags">
                 <ul class="nav nav-pills">
                     {% for tag in site.tags %}
-                    {{ assign tagtext = tag | replace: ",", ""| strip}}
+                    {{ assign tagpilltext = tag | replace: ",", ""| strip}}
                     <li class="red" style="margin:5px">
-                        <a href="/tags/{{ tagtext | first | slugize }}/"> {{ tagtext | first }}&nbsp;<span class="badge">{{ tagtext | last | size}}</span></a>
+                        <a href="/tags/{{ tagpilltext | first | slugize }}/"> {{ tagpilltext | first }}&nbsp;<span class="badge">{{ tagpilltext | last | size}}</span></a>
                     </li>
                     {% endfor %}
                 </ul>
