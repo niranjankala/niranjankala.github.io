@@ -10,9 +10,9 @@ theme: red
         <div class="col-md-8">
             <section class="tags">
                 <ul class="nav nav-pills">
-                    {% for tag in site.tags %}
-                    {{ assign tagpilltext = tag | replace: ",", ""| strip}}
+                    {% for tag in site.tags %}                    
                     <li class="red" style="margin:5px">
+                        {% assign tagpilltext = tag | replace: ",", ""| strip%}
                         <a href="/tags/{{ tagpilltext | first | slugize }}/"> {{ tagpilltext | first }}&nbsp;<span class="badge">{{ tagpilltext | last | size}}</span></a>
                     </li>
                     {% endfor %}
