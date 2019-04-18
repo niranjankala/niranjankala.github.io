@@ -11,9 +11,8 @@ theme: red
             <section class="tags">
                 <ul class="nav nav-pills">
                     {% for tag in site.tags %}
-                    <li class="red" style="margin:5px">    
-                        {{ tag | first | slugize | replace: ',', ''| strip }}
-                        <a href="/tags/{{ tag | first | slugize }}/"> {{ tag | first }}&nbsp;<span class="badge">{{ tag | last | size}}</span></a>
+                    <li class="red" style="margin:5px">                           
+                        <a href="/tags/{{ tag | first | slugize | replace: ',', ''| strip }}/"> {{ tag | first | replace: ',', ''| strip }}&nbsp;<span class="badge">{{ tag | last | size}}</span></a>
                     </li>
                     {% endfor %}
                 </ul>
@@ -36,11 +35,13 @@ theme: red
             {% assign sortedtags = tags | split:' ' | sort %}
 
             {% for tag in sortedtags %}
-                <h3 id="{{tag}}">{{tag}}</h3>
+                {% assign currenttag = tag | replace: ',', ''| strip %}
+                <h3 id="{{currenttag}}">{{currenttag}}</h3>
                 <ul>
                     {% for post in site.posts %}
                         {% for otag in post.tags %}
-                            {% if tag == otag %}
+                            {% assign posttag = otag | replace: ',', ''| strip %}
+                            {% if currenttag == posttag %}
                                 <li class="alink"><a href="{{ post.url }}" class="red-link">{{ post.title }}</a></li>
                             {% endif %}
                         {% endfor %}
