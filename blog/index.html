@@ -23,7 +23,8 @@ bloghome: true
                 </div>
 		              <div class="tags">
                   {% if post.tags %}
-              		{% for tag in post.tags %}
+                  {% assign sortedtags = post.tags | split:','%}
+              		{% for tag in sortedtags %}
                 			<a href="/tags/{{tag}}"><span class="label btn-orange">{{tag}}</span></a>
               		{% endfor %}
            		 {% else %}
