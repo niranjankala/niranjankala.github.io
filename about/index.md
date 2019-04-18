@@ -19,7 +19,7 @@ Stackoverflow is a online community I hang around a lot during my free time. You
 
 ## About this Site
 
-This is a static site powered by Jekyll. The design was done by me and the theme is freely available on [Github](https://github.com/niranjankala). I have used Bootstrap, jQuery, icons from Metro Studio of Syncfusion and Github for hosting the site.
+This is my personal website hosted using Github pages. At that time it was for learning that how does Github host pages to create a static website. It is based on the Metro theme and it remind me of my windows phone. 
 
 Technicals apart, this is my personal site where I plan to pen down my thoughts, technical experiences that I would like to share. But, the content and opnion that you see here are personal and not related to companies / clients i work with. And regarding the code you see there.. you may use it as per your discretion.
 
