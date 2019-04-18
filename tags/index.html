@@ -10,10 +10,10 @@ theme: red
         <div class="col-md-8">
             <section class="tags">
                 <ul class="nav nav-pills">
-                    {% for tag in site.tags %}                    
+                    {% for tag in site.tags %}
                     <li class="red" style="margin:5px">
-                        {% assign tagpilltext = tag | replace: ",", ""| strip%}
-                        <a href="/tags/{{ tagpilltext | first | slugize }}/"> {{ tagpilltext | first }}&nbsp;<span class="badge">{{ tagpilltext | last | size}}</span></a>
+                        {{tag}}
+                        <a href="/tags/{{ tag | first | slugize }}/"> {{ tag | first | replace: ",", ""| strip }}&nbsp;<span class="badge">{{ tag | last | size}}</span></a>
                     </li>
                     {% endfor %}
                 </ul>
@@ -29,20 +29,18 @@ theme: red
             <section>
             {% capture tags %}
                 {% for tag in site.tags %}
-                    {% assign tagtext = tag[0] | replace: ",", ""| strip%}
-                    {{ tagtext }}
+                    {{ tag[0] }}
                 {% endfor %}
             {% endcapture %}
 
-            {% assign sortedtags = tags | split:',' | sort %}
+            {% assign sortedtags = tags | split:' ' | sort %}
 
             {% for tag in sortedtags %}
-            <h3 id="{{tag}}">{{tag}}</h3>
+                <h3 id="{{tag}}">{{tag}}</h3>
                 <ul>
                     {% for post in site.posts %}
-                        {% for otag in post.tags %}  
-                            {% assign tagtext = otag | replace: ",", ""| strip%}
-                            {% if tag == tagtext %}
+                        {% for otag in post.tags %}
+                            {% if tag == otag %}
                                 <li class="alink"><a href="{{ post.url }}" class="red-link">{{ post.title }}</a></li>
                             {% endif %}
                         {% endfor %}
