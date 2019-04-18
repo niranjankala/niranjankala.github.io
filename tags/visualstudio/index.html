@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tags - SharePoint
+title: Tags - visualstudio
 description: All articles with SharePoint tag assigned
 theme: red
 ---
@@ -30,7 +30,7 @@ theme: red
                     {% for post in site.posts %}
                         {% for otag in post.tags %}
                             {% assign posttag = otag | replace: ',', ''| strip %}
-                            {% if posttag == 'SharePoint' %}
+                            {% if posttag == 'visualstudio' %}
                                 <li class="alink"><a href="{{ post.url }}" class="red-link">{{ post.title }}</a></li>
                             {% endif %}
                         {% endfor %}
