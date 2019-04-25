@@ -12,7 +12,7 @@ layout: post
 
 In this article, you will learn how to create ionic 4 release build for Android platform.
 
-### What is Ionic?
+## What is Ionic?
 Ionic framework is the free, open source toolkit for developing high-quality cross-platform apps for native iOS, Android, and the web—all from a single codebase. It allows us to develop UI using the famous frameworks e.g Angular, Vue.js, React etc.
 
 # Setting up release build for Android platform
