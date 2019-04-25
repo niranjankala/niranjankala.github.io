@@ -14,21 +14,20 @@ In this article, you will learn how to create ionic 4 release build for Android 
 
 # Setting up release build for Android platform
 
-## Steps 1 
-
+**Steps 1 -** 
 Run "npm install" on root directory
-## Steps 2 
 
-Add android platform with the CLI :
+**Steps 2 -**
+Add android platform with the CLI:
 ```
 ionic platform add android
 ```
-## Steps 3 
+**Steps 3 -** 
 If you are working in distributed development environment then make sure to install required files. Run  [ionic cordova prepare](https://ionicframework.com/docs/cli/commands/cordova-prepare) command. it will Install platforms and plugins listed in "config.xml". 
 ```
 ionic cordova prepare android**
 ```
-## Steps 4
+**Steps 4 -**
 Now navigate to platforms/android with the CLI :cd platforms/android
 	
 Create/Copy release signing key store file under platforms/android folder
@@ -40,9 +39,10 @@ Follow the steps suggested in the documentation for [Deploying to a Device](http
 
 ### Create/Specify release signing information
 
-#### Steps 1
-Create a file with name "release-signing.properties" under "platforms\android" folder 
-#### Steps 2
+**Steps 1 -**
+Create a file with name "release-signing.properties" under "platforms\android" folder.
+
+**Steps 2 -**
  Add below information to this file:
  ```
 key.store=YourApp.keystore
