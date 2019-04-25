@@ -31,8 +31,10 @@ If you are working in distributed development environment then make sure to inst
 ionic cordova prepare android**
 ```
 **Steps 4 -**
-Now navigate to platforms/android with the CLI :cd platforms/android
-	
+Now navigate to platforms/android with the CLI :
+```
+cd platforms/android
+```	
 Create/Copy release signing key store file under platforms/android folder
 Copy the created Key store file for android application if you already have otherwise generate a key.store file with the CLI and answer all the questions:
 ```
