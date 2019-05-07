@@ -10,15 +10,15 @@ layout: post
 
 # Introduction
 
-In this article, you will learn how to create ionic 4 release build for Android platform.
+In this article, you will learn how to create ionic 4 release build for the Android platform.
 
 ## What is Ionic?
-Ionic framework is the free, open source toolkit for developing high-quality cross-platform apps for native iOS, Android, and the web—all from a single codebase. It allows us to develop UI using the famous frameworks e.g Angular, Vue.js, React etc.
+Ionic framework is the free, open-source toolkit for developing high-quality cross-platform apps for native iOS, Android, and the web—all from a single codebase. It allows us to develop UI using the famous frameworks e.g Angular, Vue.js, React, etc.
 
 # Setting up release build for Android platform
 
 **Steps 1 -** 
-Run "npm install" on root directory
+Run "npm install" on the root directory
 
 **Steps 2 -**
 Add android platform with the CLI:
@@ -26,7 +26,7 @@ Add android platform with the CLI:
 ionic platform add android
 ```
 **Steps 3 -** 
-If you are working in distributed development environment then make sure to install required files. Run  [ionic cordova prepare](https://ionicframework.com/docs/cli/commands/cordova-prepare) command. it will Install platforms and plugins listed in "config.xml". 
+If you are working in a distributed development environment then make sure to install the required files. Run  [ionic cordova prepare](https://ionicframework.com/docs/cli/commands/cordova-prepare) command. it will Install platforms and plugins listed in "config.xml". 
 ```
 ionic cordova prepare android**
 ```
@@ -74,4 +74,4 @@ rd  plugins /d/s && rd platforms /d/s  && ionic cordova prepare
 
 
 # Conclusion
-There are the steps to create a build for ionic 4 application and then you can host you application on Android store.
+There are the steps to create a build for ionic 4 application and then you can host your application on Android store.
