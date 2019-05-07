@@ -10,10 +10,11 @@ layout: post
 
 # Introduction
 
-In this article, We will learn about WebGL and babylonjs.
+In this article, We will learn about WebGL and Babylon.js.
 
-## What is Ionic?
-Ionic framework is the free, open source toolkit for developing high-quality cross-platform apps for native iOS, Android, and the web—all from a single codebase. It allows us to develop UI using the famous frameworks e.g Angular, Vue.js, React etc.
+## What is Babylon.js?
+
+Babylon.js is a Powerful, Beautiful, Simple, Open source Web-Based 3D WebGL-based graphics engine. It has the powerful new Inspector, best in class physically-based-rendering, countless optimizations, and much more which makes Babylon.js powerful, beautiful, simple, and open 3D to everyone on the web.
 
 # Setting up release build for Android platform
 
