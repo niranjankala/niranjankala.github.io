@@ -10,68 +10,41 @@ layout: post
 
 # Introduction
 
-In this article, We will learn about WebGL and Babylon.js.
+In this article, we will learn about WebGL and Babylon.js.
+
+## What is WebGL?
+
+Definition from: [WebGL - Mozilla] (https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) and [khronos](https://www.khronos.org/webgl/)
+WebGL (Web Graphics Library) is a JavaScript API for rendering interactive 3D and 2D graphics within any compatible web browser without the use of plug-ins. WebGL does so by introducing an API that closely conforms to OpenGL ES 2.0.
+
+1. It is a cross-platform, free web standard for 3D graphics API based on OpenGL ES. 
+2. It is exposed to ECMAScript via the HTML5 Canvas element. Developers familiar with OpenGL ES 2.0 will recognize WebGL as a Shader-based API using GLSL, with constructs that are semantically similar to those of the underlying OpenGL ES API. 
+3. It stays very close to the OpenGL ES specification, with some concessions made for what developers expect out of memory-managed languages such as JavaScript. 
+4. WebGL 1.0 exposes the OpenGL ES 2.0 feature set; WebGL 2.0 exposes the OpenGL ES 3.0 API.
+WebGL brings plugin-free 3D to the web, implemented right into the browser. Major browser vendors Apple (Safari), Google (Chrome), Microsoft (Edge), and Mozilla (Firefox) are members of the WebGL Working Group.
+
+It is maintained by [khronos](https://www.khronos.org/webgl/).
 
 ## What is Babylon.js?
 
-Babylon.js is a Powerful, Beautiful, Simple, Open source Web-Based 3D WebGL-based graphics engine. It has the powerful new Inspector, best in class physically-based-rendering, countless optimizations, and much more which makes Babylon.js powerful, beautiful, simple, and open 3D to everyone on the web.
+Babylon.js is a Powerful, Beautiful, Simple, Open source Web-Based 3D WebGL-based graphics engine.
+
+**Pros:**
+ 1. Equipped with the powerful Inspector.
+ 2. Best in class physically-based-rendering, countless optimizations.
+ 3. Powerful, beautiful, simple, and open 3D to everyone on the web.
+
+
+
+
+### 3D engine vocabulary or terms:
+* A point in the 3D world = **vertex**.
+* Multiple vertex = **vertices**.
+* **Vector3** (x,y,z) is used for a 3D position or a direction.
+* Triangle = **face**
+* 3D object = **mesh**
 
 # Setting up release build for Android platform
-
-**Steps 1 -** 
-Run "npm install" on root directory
-
-**Steps 2 -**
-Add android platform with the CLI:
-```
-ionic platform add android
-```
-**Steps 3 -** 
-If you are working in distributed development environment then make sure to install required files. Run  [ionic cordova prepare](https://ionicframework.com/docs/cli/commands/cordova-prepare) command. it will Install platforms and plugins listed in "config.xml". 
-```
-ionic cordova prepare android**
-```
-**Steps 4 -**
-Now navigate to platforms/android with the CLI :
-```
-cd platforms/android
-```	
-Create/Copy release signing key store file under platforms/android folder
-Copy the created Key store file for android application if you already have otherwise generate a key.store file with the CLI and answer all the questions:
-```
-keytool -genkey -v -keystore YourApp.keystore -alias YourApp -keyalg RSA -keysize 2048 -validity 10000
-```
-Follow the steps suggested in the documentation for [Deploying to a Device](https://ionicframework.com/docs/v3/intro/deploying/).
-
-### Create/Specify release signing information
-
-**Steps 1 -**
-Create a file with name "release-signing.properties" under "platforms\android" folder.
-
-**Steps 2 -**
- Add below information to this file:
- ```
-key.store=YourApp.keystore
-key.store.password=<YourApp keystore password>
-key.alias=YourApp
-key.alias.password=<YourApp alias password>
-```
-# Create build for application
-
-Now go back to the root of your Ionic project with the CLI and build a release version:
-```
-ionic cordova build android --prod --release
-```
-If command run successfully then you will find release APK under -- APP_Root_Folder\platforms\android\app\build\outputs\apk\release
-
-
-### Reset plugins and platforms
-
-
-To install Or reinstall all cordova plugins In Package.json with Ionic, Run this command on windows command prompt with administrator privilege 
-```
-rd  plugins /d/s && rd platforms /d/s  && ionic cordova prepare
-```
 
 
 # Conclusion
