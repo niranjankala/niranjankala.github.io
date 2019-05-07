@@ -2,7 +2,7 @@
 title: "Getting Started with WebGL and BabylonJs"
 published: true
 description: "Getting Started with WebGL and BabylonJs"
-tags: webgl, babylonjs
+tags: webgl,babylonjs
 cover_image: 
 canonical_url: http://niranjankala.in/post/Getting-Started-with-WebGL-and-BabylonJs
 layout: post
