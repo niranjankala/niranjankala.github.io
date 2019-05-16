@@ -22,7 +22,7 @@ This command has the following prerequisites for Installation & Setup:
 - __optional__: Angular project created via [angular-cli](https://github.com/angular/angular-cli)
 
 - An Angular 5 or above version application, which is working and ready to host.
-If it is not ready then follow the instructions specified in the below link for adding an existing angular project to Github.
+If it is not ready then follow the instructions specified in the below link for adding an existing angular project to GitHub.
 [Adding an existing project to GitHub using the command line](https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line)
 
 ## References:
