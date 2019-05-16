@@ -10,7 +10,7 @@ layout: post
     
 ## Introduction
 
-In this article, you will learn deploy an Angular application to GitHub Pages using npm angular-cli-ghpages package to easily .
+In this article, you will learn to deploy an Angular application to GitHub Pages using npm angular-cli-ghpages package to easily.
 
 ## Prerequisites:
 
@@ -26,7 +26,7 @@ If it is not ready then follow the instructions specified in the below link for 
 [Adding an existing project to GitHub using the command line](https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line)
 
 ## References:
-[Deploy to GitHub Pages](https://github.com/angular/angular-cli/wiki/stories-github-pages)   
+[Deploy to GitHub Pages](https://github.com/angular/angular-cli/wiki/stories-github-pages)
 [angular-cli-ghpages](https://github.com/angular-schule/angular-cli-ghpages/blob/master/README.md)   
 [Deploying Angular Apps with GitHub Pages](https://rhythmandbinary.com/2019/01/05/deploying-angular-apps-with-github-pages/)
 
@@ -41,7 +41,7 @@ To install the command run the following:
 npm install -g angular-cli-ghpages
 ```
 
-It is just two command to publish your Angular application to Github pages.
+It is just two command to publish your Angular application to GitHub pages.
 ``` 
 ng build --prod --base-href https://[username].github.io/[repo]/
 ngh --dir=dist/
@@ -49,9 +49,14 @@ ngh --dir=dist/
 
 
 
-### Deploying using the Angular npm scipts
+### Deploying using the Angular npm scripts
 
-You can also automatically publish application using npm by setting script in package.json. The build and deploy command in one go by following below approach:
+You can also automatically publish an application using npm by setting script in package.json. The build and deploy command in one go by following the below approach:
+
+To install the command as your project dependencies run the following:
+```
+npm i angular-cli-ghpages --save-dev
+```
 
 Open your package.json and then, in your script section add the following script to deploy an Angular 7 application.
 ```
@@ -79,4 +84,4 @@ Note: In order to compile images correctly use the relative path `'./assets/imag
 
 
 # Conclusion
-There are the steps to publish Angular application the Github pages.
+There are the steps to publish Angular application the GitHub pages.
