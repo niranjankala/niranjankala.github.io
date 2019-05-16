@@ -1,17 +1,56 @@
 ---
-title: "Getting Started with WebGL and BabylonJs"
+title: "How to deploy an Angular app to Github Pages"
 published: true
-description: "Getting Started with WebGL and BabylonJs"
-tags: webgl babylonjs
+description: "How to deploy an Angular app to Github Pages"
+tags: angular github
 cover_image: 
-canonical_url: http://niranjankala.in/post/Getting-Started-with-WebGL-and-BabylonJs
+canonical_url: http://niranjankala.in/post/how-to-deploy-an-angular-app-to-github-pages
 layout: post
 ---
     
-# Introduction
+## Introduction
 
-In this article, we will learn about WebGL and Babylon.js.
+In this article, we will learn deploy an Angular application to GitHub Pages using npm angular-cli-ghpages package to easily .
 
+## Prerequisites:
+
+
+This command has the following prerequisites for Installation & Setup:
+
+- `Node.js 8.2.0` or higher which brings you `npm 5.2.0` which brings you [`npx`](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) 
+- Git 1.7.6 or higher
+- __optional__: Angular project created via [angular-cli](https://github.com/angular/angular-cli)
+
+- An Angular 5 or above version application, which is working and ready to host.
+If it is not ready then follow the instructions specified in the below link for adding an existing angular project to Github.
+[Adding an existing project to GitHub using the command line](https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line)
+
+#### References:
+[Deploy to GitHub Pages](https://github.com/angular/angular-cli/wiki/stories-github-pages)
+[]()
+
+
+
+
+# Steps to deploy to GitHub pages
+
+
+To install the command run the following:
+
+```bash
+npm install -g angular-cli-ghpages
+```
+``` 
+
+ng build --prod --base-href https://[username].github.io/[repo]/
+ngh --dir=dist/[project-name] //
+```
+In order to compile images correctly use path as following:
+
+```
+'./assets/images/image.png'
+```
+- 
 ## What is WebGL?
 
 Definition from: [WebGL - Mozilla] (https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) and [khronos](https://www.khronos.org/webgl/)
