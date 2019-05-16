@@ -40,13 +40,14 @@ To install the command run the following:
 ```bash
 npm install -g angular-cli-ghpages
 ```
-``` 
 
+It is just two command to publish your Angular application to Github pages.
+``` 
 ng build --prod --base-href https://[username].github.io/[repo]/
 ngh --dir=dist/
 ```
 
-It is just two command to publish your Angular application to Github pages.
+
 
 ### Deploying using the Angular npm scipts
 
