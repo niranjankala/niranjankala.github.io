@@ -14,7 +14,9 @@ In this article, you will know how to remove TFS workspace mapping for a differe
 
 ## Scenario
 
-Today I faced an issue while trying to update a mapped TFS workspace in Visual Studio 2017. Visual Studio stops responding if I try to open "Source Control Explorer" and found that some different TFS user connects to TFS and mapped some folders on my local drive. Now I need to access that mapped workspace folder because I do not want to create another folder for myself. So naturally I tried mapping same remote folder to my existing local folder and I got the following error.
+Today I faced an issue while trying to update a mapped TFS workspace in Visual Studio 2017. Visual Studio stops responding if I try to open "Source Control Explorer" and found that some different TFS user connects to TFS and mapped some folders on my local drive. Now I need to access that mapped workspace folder because I do not want to create another folder for myself. 
+
+I tried mapping same remote folder to my existing local folder and I got the following error:
 
 "The working folder 'Workspace_Folder_Local_Path' is already in use by the workspace WORKSPACE_NAME:USER_NAME on computer 'MACHINE_NAME'"
 
@@ -23,7 +25,7 @@ Today I faced an issue while trying to update a mapped TFS workspace in Visual S
 ### Prerequisites:
 
 - You should have administrative rights to the collection.
-- TF command. ( it is located at "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE" depend upon your Visual Studio version
+- TF command. ( it is located at "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE" depend upon your Visual Studio version.
 
 
 ### Steps to remove user workspace mapping
