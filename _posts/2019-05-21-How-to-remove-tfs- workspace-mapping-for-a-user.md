@@ -18,14 +18,15 @@ Today I faced an issue while trying to update a mapped TFS workspace in Visual S
 
 "The working folder 'Workspace_Folder_Local_Path' is already in use by the workspace WORKSPACE_NAME:USER_NAME on computer 'MACHINE_NAME'"
 
-## Prerequisites:
+## Remove TFS workspace user mapping
+
+### Prerequisites:
 
 - You should have administrative rights to the collection.
 - TF command. ( it is located at "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE" depend upon your Visual Studio version
 
-## Remove TFS workspace user mapping
 
-Steps to remove user workspace mapping
+### Steps to remove user workspace mapping
 - Run "Developer Command Prompt for VS 2017" from Start menu.
 - List the workspaces associated with the user using the below command:
     ```
@@ -39,6 +40,7 @@ For owner_id, you use the user name e.g. Niranjan Singh
     ```
 
   Now it will confirm you to delete the user mapping. Enter  `'y'` to initiate the process.
+
   ![Remove TFS Workspace Mapping for a user](https://2.bp.blogspot.com/-_FBeQEDjD3k/XOOsMlseoHI/AAAAAAAABuE/zHq-ICKUDvMXu0uJt15vtOx4ubkBqV21gCLcBGAs/s400/Remove%2BTFS%2Bmapping.PNG)
 
 # Conclusion
