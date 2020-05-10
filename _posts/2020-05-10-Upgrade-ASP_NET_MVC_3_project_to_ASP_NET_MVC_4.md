@@ -1,10 +1,10 @@
 ---
-title: "How to deploy an Angular app to Github Pages"
+title: "Upgrade ASP.NET MVC 3 project to ASP.NET MVC 4"
 published: true
-description: "How to deploy an Angular app to Github Pages"
-tags: angular github
+description: "Upgrade ASP.NET MVC 3 project to ASP.NET MVC 4"
+tags: asp.net github
 cover_image: 
-canonical_url: http://niranjankala.in/post/Upgrade-ASP_net_3_project_to_ASP_net_4
+canonical_url: http://niranjankala.in/post/Upgrade-ASP_NET_MVC_3_project_to_ASP_NET_MVC_4
 layout: post
 ---
     
