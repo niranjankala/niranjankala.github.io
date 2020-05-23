@@ -4,7 +4,7 @@ published: true
 description: "NDepend - Improved Dependency Graph Feature"
 tags: ndepend code-quality
 cover_image: 
-canonical_url: http://niranjankala.in/post/Upgrade-ASP_NET_MVC_3_project_to_ASP_NET_MVC_4
+canonical_url: http://niranjankala.in/post/NDepend_Improved_Dependency_Graph_Feature
 layout: post
 ---
     
