@@ -10,7 +10,7 @@ layout: post
     
 ## Introduction
 
-In this article, you will learn to deploy an Angular application to GitHub Pages using npm angular-cli-ghpages package to easily.
+In this article, you will learn to upgrade an ASP.NET MVC 3 project to ASP.NET MVC 4.
 
 ## Prerequisites:
 
