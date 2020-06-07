@@ -4,7 +4,7 @@ published: true
 description: "NDepend - Improved Dependency Graph Feature"
 tags: ndepend code-quality
 cover_image: 
-canonical_url: http://niranjankala.in/post/NDepend_Improved_Dependency_Graph_Feature
+canonical_url: http://niranjankala.in/post/ndepend-improved-dependency-graph-feature
 layout: post
 ---
     
