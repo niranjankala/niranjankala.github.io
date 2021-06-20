@@ -68,23 +68,45 @@ Implemented custom applications for BIM(Building Information modeling) and knowl
 	<div class="col-md-9">
 		<ul>
 			<li>
-				<h4>Project Leader</h4>
-				<h5>July 2012 - Present</h5>
+				<h4>MothersonSumi Infotech & Designs Ltd.</h4>
+				<h5>Project Leader (Dec 2019 – Present)</h5>
 				<p>Working as Application Developer/ Team Lead</p>
+
+<h4>Project Leader</h4>
+				<h5>July 2012 - Present</h5>
+				<p>Design and developing project architecture. Mainly involved in clean code implementation for better product design.
+
+Worked on the different types of projects to utilize the cloud features and implement a microservices architecture.
+
+Responsibilities:
+• Involved in initiation, planning, execution, control and completion of the product development
+• Mentor team members to complete the task correctly and efficiently.</p>
+<h4>Module Leader</h4>
+				<h5>Apr 2017 – Dec 2019</h5>
+				<p>Design and developing project architecture. Main involvement in code implementations.
+
+Worked on a BIM (Building Information Modeling) project Simergy(https://d-alchemy.com/).
+I have done few modules of this system like Schedule Editor, Results Visualization, gbXML import to it's model, and currently working enhancements.</p>
+<h4>Senior Software Engineer</h4>
+				<h5>Apr 2015 – Mar 2017</h5>
+				<p>Worked as Application Developer</p>
+<h4>Software Engineer</h4>
+				<h5>Jul 2012 – Mar 2015</h5>
+				<p>Worked as Application Developer</p>
 			</li>
 			<li>
-				<h4>Software Engineer</h4>
-				<h5>January 2012 - Jun 2012</h5>
+				<h4>7N</h4>
+				<h5>Software Engineer (January 2012 - Jun 2012)</h5>
 				<p>Worked as Application Developer on a BIM application with DevExpress controls</e>
 			</li>
 			<li>
-				<h4>Software Developer - Consultant</h4>
-				<h5>May 2011 - January 2012</h5>
+				<h4>AGCSS </h4>
+				<h5>Software Developer - Consultant (May 2011 - Jan 2012)</h5>
 				<p>Worked as Software Developer and developed application using DevExpress controls</p>
 			</li>
 			<li>
 				<h4>Lio Technologies</h4>
-				<h5>Jan 2010 - May 2011</h5>
+				<h5>Software Engineer (Jan 2010 - May 2011)</h5>
 				<p>Worked as Project Trainee & later Software Engineer</p>
 			</li>
 		</ul>

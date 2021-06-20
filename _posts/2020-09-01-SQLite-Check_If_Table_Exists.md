@@ -4,7 +4,7 @@ published: true
 description: "SQLite- Check If Table Exists"
 tags: sqlite
 cover_image: 
-canonical_url: http://niranjankala.in/post/SQLite-Check_If_Table_Exists
+canonical_url: http://niranjankala.in/post/sqlite-check-if-table-exists
 layout: post
 ---
     
