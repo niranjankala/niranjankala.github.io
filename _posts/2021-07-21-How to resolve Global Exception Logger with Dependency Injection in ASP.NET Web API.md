@@ -16,7 +16,7 @@ In this article, you will learn how to resolve Global Exception Logger with depe
 ### How to resolve Global Exception Logger with dependency injection
 
 
-Step 1:  Create the custom exception logger by inher
+Step 1:  Create the custom exception logger by inheriting the IExceptionLogger interface to write your custom logging logic.
 ```csharp
 /// <summary>
 /// The main class <c>GlobalExceptionLogger</c>.
@@ -54,7 +54,7 @@ public class GlobalExceptionLogger : IExceptionLogger
 }
 
 ```
-Step 2:
+Step 2: Register your custom exception logger class in the Autofac container to resolve it through dependency injection.
 ```csharp
 /// <summary>
 /// The main class <c>AutofacConfig</c>.
@@ -115,7 +115,7 @@ public static class AutofacConfig
 }
 
 ```
-Step 3:
+Step 3: Replace the custom exception logger in the HttpConfiguration services to use it in the place of the default ASP.NET exception logger.
 
 ```csharp
 public static class WebApiConfig
@@ -147,4 +147,4 @@ public static class WebApiConfig
 ```
 
 ### Conclusion
-Search indexing is important feature in the Azure DevOps Server, use the scripts to get the status of the search indexing and fix the issues.  
+Whenever an unhandled error occurs then you have a chance to log it. The information regarding the can be stored somewhere for review. There you can write the issue to a log or write custom logic.
