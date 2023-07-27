@@ -2,7 +2,7 @@
 ---
 title: "How to Fix ORA-01489: Result of String Concatenation is Too Long with LISTAGG Function"
 published: true
-description: "How to Fix \"ORA-01489: Result of String Concatenation is Too Long\" with LISTAGG Function in Oracle"
+description: "How to Fix ORA-01489: Result of String Concatenation is Too Long with LISTAGG Function in Oracle"
 tags: Oracle
 cover_image: 
 canonical_url: https://niranjankala.in/post/how-to-fix-ora-01489-result-of-string-concatenation-is-too-long-with-listagg-function
