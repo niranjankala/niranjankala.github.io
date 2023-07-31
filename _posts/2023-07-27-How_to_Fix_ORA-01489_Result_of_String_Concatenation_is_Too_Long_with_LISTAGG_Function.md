@@ -1,13 +1,13 @@
-
 ---
 title: "How to Fix ORA-01489: Result of String Concatenation is Too Long with LISTAGG Function"
 published: true
 description: "How to Fix ORA-01489: Result of String Concatenation is Too Long with LISTAGG Function in Oracle"
-tags: Oracle
+tags: PostgreSQL
 cover_image: 
 canonical_url: https://niranjankala.in/post/how-to-fix-ora-01489-result-of-string-concatenation-is-too-long-with-listagg-function
 layout: post
 ---
+    
 
 ## Introduction
 Oracle Database is a powerful relational database management system offering developers and database administrators various functionalities. One of these powerful features is the `LISTAGG` function, which allows you to aggregate rows of data into a single concatenated string. However, when using the `LISTAGG` function with large datasets, you may encounter an error message like "ORA-01489: result of string concatenation is too long." In this article, we will explore the causes of this error and discuss various methods to prevent and handle it effectively.
