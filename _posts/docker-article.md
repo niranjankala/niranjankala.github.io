@@ -176,7 +176,8 @@ Sharing your custom Docker images on Docker Hub allows you to contribute to the 
    - Open your web browser and navigate to Docker Hub: [https://hub.docker.com/](https://hub.docker.com/)
    - Log in to your Docker Hub account if you haven't already.
    - Go to your profile, and you should see the repository with the pushed image listed.
-    You have successfully shared your custom Docker image on Docker Hub. Now, others can easily pull and use your image for their projects. Sharing your Docker images benefits the community and facilitates collaboration and promotes the use of best practices in containerization.
+
+You have successfully shared your custom Docker image on Docker Hub. Now, others can easily pull and use your image for their projects. Sharing your Docker images benefits the community and facilitates collaboration and promotes the use of best practices in containerization.
 
 
 Congratulations on completing the first leg of our Docker journey! In this section, you've understood Docker's core concepts, set up Docker on your preferred platform, and learned essential Docker commands to interact with containers. You've successfully created and run your first Docker container and tapped into the treasure trove of container images available on Docker Hub. Armed with these foundational skills, you're ready to explore Docker's potential in the upcoming sections. Stay tuned as we delve deeper into the world of containerization and uncover Docker's capabilities for streamlined application deployment and development.
