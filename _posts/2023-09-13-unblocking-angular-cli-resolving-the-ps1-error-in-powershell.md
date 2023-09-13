@@ -26,7 +26,7 @@ At line:1 char:1
     + FullyQualifiedErrorId : UnauthorizedAccess
 ``````
 
-# How To Fix Error "PS1 Can Not Be Loaded Because Running Scripts Is Disabled On This System" In Angular
+## How To Fix Error "PS1 Can Not Be Loaded Because Running Scripts Is Disabled On This System" In Angular
 
 When working with Angular CLI (Command Line Interface) and PowerShell on Windows, you may encounter an error message that says, "PS1 cannot be loaded because running scripts is disabled on this system." This error typically occurs due to the security settings on your system that prevent the execution of PowerShell scripts. However, resolving this issue is essential to continue using Angular CLI effectively. This guide will walk you through the steps to fix this error and get back to your Angular development workflow.
 
