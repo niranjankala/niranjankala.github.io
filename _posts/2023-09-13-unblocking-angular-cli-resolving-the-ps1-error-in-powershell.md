@@ -10,11 +10,11 @@ layout: post
     
 
 ## Introduction
-When working with Angular CLI (Command Line Interface) and PowerShell on Windows, you may encounter an error message that says, "PS1 cannot be loaded because running scripts is disabled on this system." This error typically occurs due to the security settings on your system that prevent the execution of PowerShell scripts. However, it's essential to resolve this issue to continue using Angular CLI effectively. In this guide, we will walk you through the steps to fix this error and get back to your Angular development workflow.
+When working with Angular CLI (Command Line Interface) and PowerShell on Windows, you may encounter an error message that says, "PS1 cannot be loaded because running scripts is disabled on this system." This error typically occurs due to the security settings on your system that prevent the execution of PowerShell scripts. However, it is essential that you continue using Angular CLI effectively. This guide will walk you through the steps to fix this error and get back to your Angular development workflow.
 
 ## Understanding the Error
 
-The error message you're encountering is related to PowerShell's script execution policy. PowerShell has different execution policies that determine whether scripts can be run and under what conditions. The default execution policy on many Windows systems is often set to "Restricted," which prevents the execution of scripts, including Angular CLI scripts.
+Your error message is related to PowerShell's script execution policy. PowerShell has different execution policies determining whether scripts can be run and under what conditions. The default execution policy on many Windows systems is often set to "Restricted," which prevents the execution of scripts, including Angular CLI scripts.
 ```powershell
 PS E:\DevWorkspaces\GitHub\niranjankala\ms-learn\src\dotnet-core\Summaries> ng -v
 ng : File C:\Users\niran\AppData\Roaming\npm\ng.ps1 cannot be loaded. The file C:\Users\niran\AppData\Roaming\npm\ng.ps1 is not digitally signed. You cannot run this script on the current system. For 
@@ -28,15 +28,15 @@ At line:1 char:1
 
 # How To Fix Error "PS1 Can Not Be Loaded Because Running Scripts Is Disabled On This System" In Angular
 
-When working with Angular CLI (Command Line Interface) and PowerShell on Windows, you may encounter an error message that says, "PS1 cannot be loaded because running scripts is disabled on this system." This error typically occurs due to the security settings on your system that prevent the execution of PowerShell scripts. However, it's essential to resolve this issue to continue using Angular CLI effectively. In this guide, we will walk you through the steps to fix this error and get back to your Angular development workflow.
+When working with Angular CLI (Command Line Interface) and PowerShell on Windows, you may encounter an error message that says, "PS1 cannot be loaded because running scripts is disabled on this system." This error typically occurs due to the security settings on your system that prevent the execution of PowerShell scripts. However, resolving this issue is essential to continue using Angular CLI effectively. This guide will walk you through the steps to fix this error and get back to your Angular development workflow.
 
 ## Understanding the Error
 
-The error message you're encountering is related to PowerShell's script execution policy. PowerShell has different execution policies that determine whether scripts can be run and under what conditions. The default execution policy on many Windows systems is often set to "Restricted," which prevents the execution of scripts, including Angular CLI scripts.
+Your error message is related to PowerShell's script execution policy. PowerShell has different execution policies determining whether scripts can be run and under what conditions. The default execution policy on many Windows systems is often set to "Restricted," which prevents the execution of scripts, including Angular CLI scripts.
 
 ## Solution: Change the Execution Policy
 
-To resolve this issue, you need to change the PowerShell execution policy to allow script execution. Here are the steps to do that:
+To resolve this issue, you must change the PowerShell execution policy to allow script execution. Here are the steps to do that:
 
 1. **Open PowerShell as an Administrator:**
    - Click on the Windows Start button.
@@ -55,7 +55,7 @@ To resolve this issue, you need to change the PowerShell execution policy to all
      ```powershell
      Set-ExecutionPolicy RemoteSigned
      ```
-     The "RemoteSigned" policy allows the execution of scripts that are locally created but require a digital signature for scripts downloaded from the internet.
+     The "RemoteSigned" policy allows the execution of locally created scripts that require a digital signature for scripts downloaded from the internet.
 
    - You might be prompted to confirm the change. Type "Y" for Yes and press Enter.
 
@@ -74,7 +74,7 @@ To resolve this issue, you need to change the PowerShell execution policy to all
 
 ## Caution
 
-Changing the execution policy to "RemoteSigned" makes your system more permissive with regards to script execution. While this change is necessary for running Angular CLI commands, it's essential to be cautious when running scripts from untrusted sources. Always ensure that you are running scripts from reliable and trusted locations to minimize security risks.
+Changing the execution policy to "RemoteSigned" makes your system more permissive with regard to script execution. While this change is necessary for running Angular CLI commands, it's essential to be cautious when running scripts from untrusted sources. Ensure you run scripts from reliable and trusted locations to minimize security risks.
 
 ## Conclusion
 
