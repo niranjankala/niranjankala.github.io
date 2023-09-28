@@ -9,73 +9,40 @@ layout: post
 ---
     
 
-## Introduction
-When working with Angular CLI (Command Line Interface) and PowerShell on Windows, you may encounter an error message that says, "PS1 cannot be loaded because running scripts is disabled on this system." This error typically occurs due to the security settings on your system that prevent the execution of PowerShell scripts. However, it is essential that you continue using Angular CLI effectively. This guide will walk you through the steps to fix this error and get back to your Angular development workflow.
+**Title:** Exploring Common Security Vulnerabilities: A Comprehensive Guide
 
-## Understanding the Error
+**Introduction:**    
+Security vulnerabilities are weaknesses within software or hardware systems that malicious actors can exploit to gain unauthorized access to sensitive data or to compromise the integrity of a system. In this article, we will delve into the world of common security vulnerabilities and learn how to safeguard our applications against potential threats. We will start by exploring injection attacks and then move on to other prevalent vulnerabilities, emphasizing the importance of awareness and proactive prevention.
 
-Your error message is related to PowerShell's script execution policy. PowerShell has different execution policies determining whether scripts can be run and under what conditions. The default execution policy on many Windows systems is often set to "Restricted," which prevents the execution of scripts, including Angular CLI scripts.
-```powershell
-PS E:\DevWorkspaces\GitHub\niranjankala\ms-learn\src\dotnet-core\Summaries> ng -v
-ng : File C:\Users\niran\AppData\Roaming\npm\ng.ps1 cannot be loaded. The file C:\Users\niran\AppData\Roaming\npm\ng.ps1 is not digitally signed. You cannot run this script on the current system. For 
-more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
-At line:1 char:1
-+ ng -v
-+ ~~
-    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
-    + FullyQualifiedErrorId : UnauthorizedAccess
-``````
+**Understanding Injection Attacks:**    
+Injection attacks represent a significant threat in the cybersecurity landscape. They encompass various attack types, including SQL injections, command injections, CRLF injections, and LDAP injections. 
 
-## How To Fix Error "PS1 Can Not Be Loaded Because Running Scripts Is Disabled On This System" In Angular
+- **SQL Injection:** This attack involves injecting malicious SQL code into an application to gain unauthorized access to sensitive data stored in a database. It can have severe consequences for data security.
 
-When working with Angular CLI (Command Line Interface) and PowerShell on Windows, you may encounter an error message that says, "PS1 cannot be loaded because running scripts is disabled on this system." This error typically occurs due to the security settings on your system that prevent the execution of PowerShell scripts. However, resolving this issue is essential to continue using Angular CLI effectively. This guide will walk you through the steps to fix this error and get back to your Angular development workflow.
+- **Command Injection:** Here, malevolent users inject command-line commands into a vulnerable application, aiming to execute them within the operating system. This attack can lead to unauthorized system access or system damage.
 
-## Understanding the Error
+- **CRLF Injection:** By injecting special characters into an HTTP request, attackers manipulate the request, causing damage on the server.
 
-Your error message is related to PowerShell's script execution policy. PowerShell has different execution policies determining whether scripts can be run and under what conditions. The default execution policy on many Windows systems is often set to "Restricted," which prevents the execution of scripts, including Angular CLI scripts.
+- **LDAP Injection:** Malicious LDAP statements are injected into an application to manipulate the LDAP directory. 
 
-## Solution: Change the Execution Policy
+In the following sections, we will delve deeper into each of these injection types and explore strategies for their prevention.
 
-To resolve this issue, you must change the PowerShell execution policy to allow script execution. Here are the steps to do that:
+**File Upload Attacks:**    
 
-1. **Open PowerShell as an Administrator:**
-   - Click on the Windows Start button.
-   - Search for "PowerShell."
-   - Right-click on "Windows PowerShell" or "PowerShell" (depending on your Windows version) and select "Run as administrator."
+File upload attacks involve malicious files being uploaded to a system, potentially compromising its security. For instance, imagine a scenario where a user is asked to submit their CV via a web form, but instead of a legitimate document, a malicious file is uploaded.
 
-2. **Check the Current Execution Policy:**
-   - In the PowerShell window, type the following command and press Enter:
-     ```powershell
-     Get-ExecutionPolicy
-     ```
-   - This command will display the current execution policy. If it's set to "Restricted," you need to change it.
+**Authentication Attacks:**  
 
-3. **Change the Execution Policy:**
-   - To change the execution policy, you can use the following command:
-     ```powershell
-     Set-ExecutionPolicy RemoteSigned
-     ```
-     The "RemoteSigned" policy allows the execution of locally created scripts that require a digital signature for scripts downloaded from the internet.
+Authentication attacks, often referred to as brute force or guessing attacks, occur when an attacker repeatedly attempts to guess a user's password by submitting numerous authentication requests. A common preventive measure is to limit the number of wrong attempts a user can make, perhaps locking the account after a specific threshold, like five failed login attempts.
 
-   - You might be prompted to confirm the change. Type "Y" for Yes and press Enter.
+**Cross-Site Scripting (XSS) and Cross-Site Request Forgery (CSRF/XSRF):**    
 
-4. **Verify the New Execution Policy:**
-   - To ensure that the execution policy has been changed successfully, run the following command:
-     ```powershell
-     Get-ExecutionPolicy
-     ```
-     It should now display "RemoteSigned."
+Cross-Site Scripting (XSS) entails attackers injecting client-side code into web applications through input or text areas. In contrast, Cross-Site Request Forgery (CSRF/XSRF) involves using a user's authenticated session to send unauthorized requests. Both of these vulnerabilities can lead to various security breaches.
 
-5. **Restart PowerShell:**
-   - Close the PowerShell window and open a new one for the changes to take effect.
+**The Same-Origin Policy and Cross-Origin Resource Sharing (CORS):**    
 
-6. **Run Your Angular CLI Command:**
-   - Now that you've allowed script execution, you should be able to run Angular CLI commands without encountering the "PS1 cannot be loaded" error.
+Attackers can leverage third-party application tools to access your application, violating the same-origin policy and potentially compromising the security of your system. Understanding and implementing CORS effectively is crucial to mitigate this threat.
 
-## Caution
+**Conclusion:**    
 
-Changing the execution policy to "RemoteSigned" makes your system more permissive with regard to script execution. While this change is necessary for running Angular CLI commands, it's essential to be cautious when running scripts from untrusted sources. Ensure you run scripts from reliable and trusted locations to minimize security risks.
-
-## Conclusion
-
-By changing the PowerShell execution policy to "RemoteSigned," you can resolve the "PS1 cannot be loaded" error and continue using Angular CLI without issues. However, remember to exercise caution when executing scripts and only run scripts from trusted sources to maintain the security of your system. With this error resolved, you can smoothly work on your Angular projects using PowerShell.
+In this article, we've provided an overview of the top five common vulnerability attacks that can pose significant risks to your applications and systems. In subsequent sections, we will explore each of these vulnerabilities in greater detail, offering insights into prevention strategies and best practices for enhancing cybersecurity. Stay tuned for a deep dive into the world of security.
