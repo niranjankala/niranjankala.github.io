@@ -9,12 +9,14 @@ layout: post
 ---
 
 **Introduction:**
+
 In the world of web applications, security is paramount. Cross-Origin Resource Sharing (CORS) attacks stand out among the common threats developers face. CORS attacks occur when malicious actors leverage third-party applications or tools to gain unauthorized access to your application. We rely on the Same-Origin Policy to shield your ASP.NET Core application from such attacks, ensuring that only permitted origins or domains can access your API. This article will delve into the details of CORS attacks and learn how to fortify your ASP.NET Core application against them.
 
 **Understanding CORS Attacks:**
+
 A CORS attack, short for Cross-Origin Resource Sharing attack, exploits the ability of modern web browsers to make cross-origin HTTP requests. In simple terms, it's when an external website or application accesses resources (like data or APIs) on your website from a different domain. 
 
-Imagine your ASP.NET Core API is hosted at https://myapi.com, and an attacker attempts to access it from a completely different domain, say https://malicious.com. This cross-origin request can potentially lead to data breaches or unauthorized access if not protected.
+Imagine your ASP.NET Core API is hosted at https://myapi.com, and an attacker attempts to access it from a completely different domain, say https://malicious.com. This cross-origin request could lead to data breaches or unauthorized access if not protected.
 
 **Adding CORS Support in ASP.NET Core:**
 
