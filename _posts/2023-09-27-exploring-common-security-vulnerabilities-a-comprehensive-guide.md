@@ -2,7 +2,7 @@
 title: "Exploring Common Security Vulnerabilities: A Comprehensive Guide"
 published: true
 description: "Exploring Common Security Vulnerabilities: A Comprehensive Guide"
-tags: PowerShell
+tags: aspdotnetcore
 cover_image: 
 canonical_url: https://niranjankala.in/post/exploring-common-security-vulnerabilities-a-comprehensive-guide
 layout: post
