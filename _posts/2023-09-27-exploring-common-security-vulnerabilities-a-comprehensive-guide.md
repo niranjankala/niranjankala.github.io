@@ -1,16 +1,13 @@
 ---
-title: "Unblocking Angular CLI: Resolving the PS1 Error in PowerShell"
+title: "Exploring Common Security Vulnerabilities: A Comprehensive Guide"
 published: true
-description: "Unblocking Angular CLI: Resolving the PS1 Error in PowerShell"
+description: "Exploring Common Security Vulnerabilities: A Comprehensive Guide"
 tags: PowerShell
 cover_image: 
-canonical_url: https://niranjankala.in/post/unblocking-angular-cli-resolving-the-ps1-error-in-powershell
+canonical_url: https://niranjankala.in/post/exploring-common-security-vulnerabilities-a-comprehensive-guide
 layout: post
 ---
     
-
-**Title:** Exploring Common Security Vulnerabilities: A Comprehensive Guide
-
 **Introduction:**    
 Security vulnerabilities are weaknesses within software or hardware systems that malicious actors can exploit to gain unauthorized access to sensitive data or to compromise the integrity of a system. In this article, we will delve into the world of common security vulnerabilities and learn how to safeguard our applications against potential threats. We will start by exploring injection attacks and then move on to other prevalent vulnerabilities, emphasizing the importance of awareness and proactive prevention.
 
