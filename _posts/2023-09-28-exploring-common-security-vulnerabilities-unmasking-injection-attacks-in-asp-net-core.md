@@ -8,7 +8,7 @@ canonical_url: https://niranjankala.in/post/exploring-common-security-vulnerabil
 layout: post
 ---
     
-**Introduction:**   
+## Introduction:   
 
 In the ever-evolving landscape of web application security, understanding and defending against common security vulnerabilities is paramount. Injection attacks are among the most prevalent and potentially devastating of these vulnerabilities. In this article, we'll explore injection attacks in the context of ASP.NET Core and learn how to safeguard our applications.
 
