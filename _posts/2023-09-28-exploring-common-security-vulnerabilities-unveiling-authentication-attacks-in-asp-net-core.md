@@ -1,18 +1,15 @@
 ---
-title: "Exploring Common Security Vulnerabilities: Unpacking File Upload Attacks in ASP.NET Core"
+title: "Exploring Common Security Vulnerabilities: Unveiling Authentication Attacks in ASP.NET Core"
 published: true
-description: "Exploring Common Security Vulnerabilities: Unpacking File Upload Attacks in ASP.NET Core"
+description: "Exploring Common Security Vulnerabilities: Unveiling Authentication Attacks in ASP.NET Core"
 tags: aspdotnetcore
 cover_image: 
-canonical_url: https://niranjankala.in/post/exploring-common-security-vulnerabilities-unpacking-file-upload-attacks-in-asp-net-core
+canonical_url: https://niranjankala.in/post/exploring-common-security-vulnerabilities-unveiling-authentication-attacks-in-asp-net-core
 layout: post
 ---
 
 
 **Introduction**
-Title: **Defending Against Authentication Attacks in ASP.NET Core: A Comprehensive Guide**
-
-Introduction:
 
 Authentication attacks, also known as brute-force attacks, pose a significant threat to web developers and their applications. In a brute-force attack, malicious actors attempt to discover a password by systematically trying every possible combination of letters, numbers, and symbols until they find the correct one. These attacks can range from relatively easy to extremely challenging depending on the complexity of the password policy.
 
