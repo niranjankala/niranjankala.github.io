@@ -36,7 +36,7 @@ To enable Google Authentication in your application, you need to set up the nece
 1. Navigate to the [Google Developer Console](https://console.cloud.google.com/).
 
 2. Create a new project or select an existing one.
-
+![Create a new project or select an existing one]([/path/to/image.png](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFRePFefoVSUFjayRmlw3tPGdhhHGVsWMAMktQmyBjOZ1QJ5APfiBgjBFOh9sdxotgl5ba_iUydXT3Pf02kqGqelGedxNcHtpG-kCqJ6PRLEpbxcDlIz9iX-wb4OqiiLawMkwR1SdO3grIVTSWK9DPqYlF6GgsyBjYPaHgRiAedKwJhysAl_1eTX-5eaae/w640-h290/Google-Auth-Projects_Screen.png).
 3. Set up the consent screen by providing the required information, including the application name, support email, and domain.
 
 4. Add authorized JavaScript origins and redirect URIs for your application. Make sure to include both the development and production URLs.
