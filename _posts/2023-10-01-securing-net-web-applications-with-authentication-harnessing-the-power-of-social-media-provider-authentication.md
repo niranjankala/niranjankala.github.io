@@ -8,9 +8,6 @@ canonical_url: https://niranjankala.in/post/securing-net-web-applications-with-a
 layout: post
 ---
 
-
-**Title:** Integrating Google Authentication into Your ASP.NET Core App
-
 **Introduction:**
 
 In today's interconnected world, users expect a seamless and secure login experience on websites and applications. Social media provider authentication, such as Google Authentication, offers a convenient and trusted way for users to access your application using their existing social media accounts. In this tutorial, we'll explore how to integrate Google Authentication into your ASP.NET Core application step by step.
@@ -20,7 +17,7 @@ In today's interconnected world, users expect a seamless and secure login experi
 Before we dive into the implementation, make sure you have the following:
 
 1. Visual Studio or Visual Studio Code installed on your system.
-2. An ASP.NET Core web application project created.
+2. An ASP.NET Core web application project was created.
 
 **Step 1: Install the Required NuGet Package**
 
@@ -87,10 +84,10 @@ This code configures the authentication services to use Google Authentication an
 
 **Step 5: Run Your Application**
 
-With Google Authentication configured, start your ASP.NET Core application. You should now see the "Use other service to log in" option on your login page, with Google as one of the available choices.
+With Google Authentication configured, you can start your ASP.NET Core application. You should now see the "Use other services to log in" option on your login page, with Google as one of the available choices.
 
-Click the "Google" button, and a popup will appear, prompting you to sign in with your Google account. After signing in, you'll be redirected back to your application, logged in and authenticated via Google.
+Click the "Google" button, and a popup will appear, prompting you to sign in with your Google account. After signing in, you'll be redirected back to your application, logged in, and authenticated via Google.
 
 **Conclusion:**
 
-By integrating Google Authentication into your ASP.NET Core application, you've provided your users with a convenient and secure way to access your services without the need to create additional accounts. This enhances the user experience and can boost user engagement on your platform.
+Integrating Google Authentication into your ASP.NET Core application provides users with a convenient and secure way to access your services without creating additional accounts. This enhances the user experience and can boost user engagement on your platform.
