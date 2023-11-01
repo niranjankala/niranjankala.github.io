@@ -9,8 +9,6 @@ layout: post
 ---
 
 
-**Title:** *Exploring NDepend v2023.2: Unraveling the Latest Features*
-
 **Introduction:**
 
 For .NET developers and software quality enthusiasts, NDepend is an indispensable tool. NDepend v2023.2 introduces an array of new features that promise to streamline your development process and enhance the quality of your code. In this comprehensive article, we'll delve into the latest updates and enhancements.
