@@ -10,7 +10,7 @@ layout: post
 
 ### Introduction
 
-Congratulations on creating a React application with Redux! However, you might have noticed a small hiccup—when you refresh the page, the Redux state resets. Fear not! In this guide, we'll address this issue using Redux Persist, ensuring your application's state persists through events like page refresh.
+Congratulations on creating a [React application with Redux](https://niranjankala.github.io/blog/2024/01/05/redux-magic-transforming-your-react-app-into-a-state-management-marvel)! However, you might have noticed a small hiccup—when you refresh the page, the Redux state resets. Fear not! In this guide, we'll address this issue using Redux Persist, ensuring your application's state persists through events like page refresh.
 
 ### Installing Redux Persist
 
@@ -20,7 +20,7 @@ The first step is to install Redux Persist. Open your terminal and run:
 npm install redux-persist
 ```
 
-Now, let's make some changes to your `store.js` and `index.js` files.
+Now, let's change your `store.js` and `index.js` files.
 
 ### Enhancing the Redux Store
 
@@ -77,6 +77,6 @@ Now, when you refresh your application, your Redux state should persist. Additio
 
 While persisting your store is immensely helpful, it can sometimes lead to development challenges. If you encounter a permacrash, delete the persisted data. In Chrome, navigate to the Application tab in the Inspect tool, locate "Local Storage," and delete the persisted data, typically under the key "persist root."
 
-With these steps, you've mastered the art of persisting your Redux state, ensuring a seamless and robust user experience.
+With these steps, you've mastered persisting your Redux state, ensuring a seamless and robust user experience.
 
 Happy coding! 🚀
