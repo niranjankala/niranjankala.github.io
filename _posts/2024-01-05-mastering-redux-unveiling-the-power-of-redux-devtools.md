@@ -16,7 +16,7 @@ In our journey with Redux, we've traversed the landscape of state management, bu
 
 Let's start by installing Redux DevTools in Google Chrome. Go to the Chrome Web Store and search for "redux extension chrome." Add the extension to Chrome. Once added, you'll notice a new icon in your toolbar, signifying the Redux DevTools.
 
-![Redux DevTools]([https://assets.digitalocean.com/articles/alligator/boo.svg](https://lh3.googleusercontent.com/ji5MEDLJ4bCt4FqacHWhcAAvC2aMXs537utkDQdTaFs4T3RgyZIwJRiXX9i9_SBcmJY219PE-lsCr0OmqJ29uC7Xbw=s1280-w1280-h800) "a title")
+![Redux DevTools](https://lh3.googleusercontent.com/ji5MEDLJ4bCt4FqacHWhcAAvC2aMXs537utkDQdTaFs4T3RgyZIwJRiXX9i9_SBcmJY219PE-lsCr0OmqJ29uC7Xbw=s1280-w1280-h800 "a title")
 
 Now, let's integrate it into our Redux setup.
 
