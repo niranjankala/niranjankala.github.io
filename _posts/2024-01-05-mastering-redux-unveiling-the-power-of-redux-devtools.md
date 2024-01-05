@@ -16,6 +16,8 @@ In our journey with Redux, we've traversed the landscape of state management, bu
 
 Let's start by installing Redux DevTools in Google Chrome. Go to the Chrome Web Store and search for "redux extension chrome." Add the extension to Chrome. Once added, you'll notice a new icon in your toolbar, signifying the Redux DevTools.
 
+![Redux DevTools]([https://assets.digitalocean.com/articles/alligator/boo.svg](https://lh3.googleusercontent.com/ji5MEDLJ4bCt4FqacHWhcAAvC2aMXs537utkDQdTaFs4T3RgyZIwJRiXX9i9_SBcmJY219PE-lsCr0OmqJ29uC7Xbw=s1280-w1280-h800) "a title")
+
 Now, let's integrate it into our Redux setup.
 
 ## Connecting Redux DevTools to Your App
@@ -39,7 +41,7 @@ Run your application with `npm run dev` and refresh your page. The Redux DevTool
 
 ### 1. State Tab
 
-Navigate to the "State" tab to see the entire store's state at any given moment. This is immensely helpful for understanding your application's state without relying solely on components.
+Navigate to the "State" tab to see the entire store's state at any moment. This is immensely helpful for understanding your application's state without relying solely on components.
 
 ### 2. Actions Tab
 
@@ -51,7 +53,7 @@ For more control, utilize the "Dispatcher" at the bottom. This tool lets you tri
 
 ## Advanced Features
 
-Click "Inspect" in the DevTools to open a larger version in its own tab. This offers an in-depth exploration of your Redux state.
+Click "Inspect" in the DevTools to open a larger version in its tab. This offers an in-depth exploration of your Redux state.
 
 ## Conclusion
 
