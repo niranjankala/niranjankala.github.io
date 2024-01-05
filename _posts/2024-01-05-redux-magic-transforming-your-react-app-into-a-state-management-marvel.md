@@ -88,8 +88,6 @@ ReactDOM.render(
 );
 ```
 
-## Redux Alchemy: Crafting Actions and Reducers for Supreme State Management
-
 Now that we've laid the groundwork for Redux in your React app, it's time to delve into the art of crafting actions and reducers. Brace yourself for a journey into the heart of state management magic!
 
 ## Creating Actions
