@@ -8,8 +8,6 @@ canonical_url: https://niranjankala.in/post/redux-magic-transforming-your-react-
 layout: post
 ---
 
-# Redux Magic: Transforming Your React App into a State Management Marvel
-
 ## Introduction
 
 Welcome to the enchanting world of Redux, where state management becomes a breeze! In this guide, we'll delve into the wizardry of adding Redux to your React app, demystifying the process step by step.
