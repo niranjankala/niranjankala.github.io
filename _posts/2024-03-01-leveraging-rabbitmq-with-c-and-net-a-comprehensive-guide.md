@@ -2,7 +2,7 @@
 title: "Leveraging RabbitMQ with C# and .NET: A Comprehensive Guide"
 published: true
 description: "Leveraging RabbitMQ with C# and .NET: A Comprehensive Guide"
-tags: microservices
+tags: microservices, RabbitMQ
 cover_image: 
 canonical_url: https://niranjankala.in/post/leveraging-rabbitmq-with-c-and-net-a-comprehensive-guide
 layout: post
