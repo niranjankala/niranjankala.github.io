@@ -32,6 +32,7 @@ RabbitMQ is a powerful message broker that facilitates communication between dif
 Before we can start using RabbitMQ, we need to install the Erlang runtime and RabbitMQ server. Follow these steps to install RabbitMQ on your system:
 
 1. Download the latest Erlang runtime from [erlang.org](http://www.erlang.org/download.html) and install it on your machine.
+![alt text]([Isolated.png](https://blogger.googleusercontent.com/img/a/AVvXsEh5e135d2_TOHk68XopAKTQHCJqFsxEMeVr-vAA6VHhTyAxyoHqkMFKEbT249uVum6Jh0EyJbxVw8fgQj7pJNKzVfZ-dGDvjlK5XTWYtspbAvO86m3isN_GFdFG0R7AMezBof0QdpveGBhR_wv9vkamlUNvRoAgyfXExtZ_99VqGY0u__kRV-wgwmGjnhZl) "Title")
 2. Download the latest RabbitMQ server release from [rabbitmq.com](http://www.rabbitmq.com/server.html) and unzip the folder to a location on your hard drive.
 3. Set the `ERLANG_HOME` environment variable to the Erlang installation directory. For example:
    ```bash
