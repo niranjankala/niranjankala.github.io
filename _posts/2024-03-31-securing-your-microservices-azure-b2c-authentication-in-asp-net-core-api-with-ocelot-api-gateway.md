@@ -20,7 +20,7 @@ Microservices architecture offers flexibility and scalability but also presents 
 
 **Step 1: App registrations**   
 1. Sign in to the Azure portal (https://portal.azure.com) using your Azure account credentials.
-2. Navigate to the **Azure Active Directory** service and select **App registrations**.     
+2. Navigate to the **Azure Active Directory** service and select **App registrations**.    
    ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvpYZlUU51yvFo8nUnJNjn2ZH_3QwDyMz9u9PDS-_hTMsPS7-e7xzvpUMTAcBsanBfbdjTiS0YrrJnt1HgCH2n266I6RdiT08rO8XBgQIi6tpERL81Q0a1MsaeiddkfdCvU7eYAYVvGa6VkDLVAsaUjFjkof5OHV2QXviIMpW_RCbWATVia2PmVo5rebZk/w640-h400/1_Azure_App_Registration.png)  
 3. Click on "**+ New registration**" to create a new application registration.
 4. Provide a name for your application, select the appropriate account type, and specify the redirect URI for authentication callbacks.    
