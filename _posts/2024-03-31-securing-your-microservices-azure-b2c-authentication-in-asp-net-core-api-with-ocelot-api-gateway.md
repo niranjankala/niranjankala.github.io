@@ -225,7 +225,7 @@ In this blog post, we've covered the first part of securing your microservices a
 
 
 **References:**  
-[Tutorial: Register a web application in Azure Active Directory B2C](https://learn.microsoft.com/en-us/azure/active-directory-b2c/tutorial-register-applications)
+[Tutorial: Register a web application in Azure Active Directory B2C](https://learn.microsoft.com/en-us/azure/active-directory-b2c/tutorial-register-applications)    
 [Add a web API application to your Azure Active Directory B2C tenant](https://learn.microsoft.com/en-us/azure/active-directory-b2c/add-web-api-application?tabs=app-reg-ga)
 
 **[Source Code](https://github.com/niranjankala/system-design-and-architecture/tree/main/microservices/src/OcelotTutorials)**
