@@ -21,7 +21,7 @@ Microservices architecture offers flexibility and scalability but also presents 
 **Step 1: App registrations**   
 1. Sign in to the Azure portal (https://portal.azure.com) using your Azure account credentials.
 2. Navigate to the **Azure Active Directory** service and select **App registrations**.    
-   ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvpYZlUU51yvFo8nUnJNjn2ZH_3QwDyMz9u9PDS-_hTMsPS7-e7xzvpUMTAcBsanBfbdjTiS0YrrJnt1HgCH2n266I6RdiT08rO8XBgQIi6tpERL81Q0a1MsaeiddkfdCvU7eYAYVvGa6VkDLVAsaUjFjkof5OHV2QXviIMpW_RCbWATVia2PmVo5rebZk/w640-h400/1_Azure_App_Registration.png)  
+   ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvpYZlUU51yvFo8nUnJNjn2ZH_3QwDyMz9u9PDS-_hTMsPS7-e7xzvpUMTAcBsanBfbdjTiS0YrrJnt1HgCH2n266I6RdiT08rO8XBgQIi6tpERL81Q0a1MsaeiddkfdCvU7eYAYVvGa6VkDLVAsaUjFjkof5OHV2QXviIMpW_RCbWATVia2PmVo5rebZk/s16000/1_Azure_App_Registration.png)  
 3. Click on "**+ New registration**" to create a new application registration.
 4. Provide a name for your application, select the appropriate account type, and specify the redirect URI for authentication callbacks.    
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7VVhOZ2AVn51MYF1hxy0yjm0SUswQXok4y0hMexu64TH1NN70pY7XRKEuYHkbZ9pE2-P8aRHMBGsONUAraAk0Ly18p8WHptHaJV7ty-8WMTDv7td2bHEaEro7I4ncRCmS7ZtK3rlbIs8L4eU-Hh_65Uzq9y9PXC-CSbTv2DNDtLSBpxvfa_cIpksWdb2r/s16000/2_Azure_App_Registration.png)  
@@ -34,11 +34,11 @@ Microservices architecture offers flexibility and scalability but also presents 
 3. To access the Certificates & secrets settings, navigate to the Manage option and select it. The Certificates & secrets option can be found in the left menu.    
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihuacQPWRBdWTQFDMZRFX_n8-FGRt1V1mkxYWBgpkS1v_yhGWY9f2g5F_rvevKXjP42Z_Wmn9ry4TkTkpipuK6cHiLPrxqUdBmCKSMXxdSAN3BQbkwRHXvrYzV-zaUUL-7ccbAoRrfoSgqVrw53ZnwxHu0ORvnHsfEOUHBTzPDjSXSoIulEEJGXg-VZAlj/s16000/4_Azure_App_Secret_Key_Registration.png)
 4. Under "**Certificates & secrets**", generate a new client secret by clicking on **New client secret**.     
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6X7abePPiPSrrFTcevI9LPOW9R3M5tRkZyZKQCNBRAGjxKifvzjR5pbcJOzCzHy_VARiKODmQpk6cQqAWO2BDNUNoKgkyd53Y4UByTxEFnghqRkDXMTkHWxRP0bptCNliZLox-Myzz-SE__c0hYj3jS0YWAyP1SfrWeb6XWxJCrDZjcCIua7a2d6DUjHz/w640-h492/5_Azure_App_Secret_Key_Registration.png)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6X7abePPiPSrrFTcevI9LPOW9R3M5tRkZyZKQCNBRAGjxKifvzjR5pbcJOzCzHy_VARiKODmQpk6cQqAWO2BDNUNoKgkyd53Y4UByTxEFnghqRkDXMTkHWxRP0bptCNliZLox-Myzz-SE__c0hYj3jS0YWAyP1SfrWeb6XWxJCrDZjcCIua7a2d6DUjHz/s16000/5_Azure_App_Secret_Key_Registration.png)
 5. Enter a description of the client's secret in the Description box. For example, Ocelotsecret.
 6. Under **Expires**, select a duration for which the secret is valid, and then click **Add**.
 7. Copy the secret's Value for use in your client application code and save it securely.    
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5UN68jBJDwMcgwiMzyjIHTLbJ0OBg948ICNitH1S9V3fMuFn1zmXUPatOPliDtpKTOy6Mxz9Ix__tc-2myW-Gbs59tGayHqlQspWDdXOEUrW9AH2TNoZd0uEcr4-RGX3xVdi-HzktBsNnzIMIuNCMQ5lhEJJ6umIwWCyOY9nv8PupaLijJi1Yj7N06A8D/w640-h492/6_Azure_App_Secret_Key_Registration.png)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5UN68jBJDwMcgwiMzyjIHTLbJ0OBg948ICNitH1S9V3fMuFn1zmXUPatOPliDtpKTOy6Mxz9Ix__tc-2myW-Gbs59tGayHqlQspWDdXOEUrW9AH2TNoZd0uEcr4-RGX3xVdi-HzktBsNnzIMIuNCMQ5lhEJJ6umIwWCyOY9nv8PupaLijJi1Yj7N06A8D/s16000/6_Azure_App_Secret_Key_Registration.png)
 
 
 **Step 3: Configure scopes** 
@@ -56,7 +56,7 @@ Microservices architecture offers flexibility and scalability but also presents 
    Admin consent display name: Read access to API Gateway API     
    Admin consent description: Allows read access to the API Gateway API    
 
-   ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjukxGJSCXvixNq_firUXIZv8NRAX8yBv4K7sbH4-LsrXHXcOF8RhDUHPuBQeOjNOknQ5_BaYpcLGjpET-Iy6M0npi7vEpoPvLvBfgUbN3iv1ybauOe1UJzOSoCpyoJ6naoFOuREbsdskwcn9jFT29MHfbbxkECbzJaCvOR3qVA9uS-IpPHwdmOE7dKVqvu/w640-h492/8_Azure_App_Scope.png)
+   ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjukxGJSCXvixNq_firUXIZv8NRAX8yBv4K7sbH4-LsrXHXcOF8RhDUHPuBQeOjNOknQ5_BaYpcLGjpET-Iy6M0npi7vEpoPvLvBfgUbN3iv1ybauOe1UJzOSoCpyoJ6naoFOuREbsdskwcn9jFT29MHfbbxkECbzJaCvOR3qVA9uS-IpPHwdmOE7dKVqvu/s16000/8_Azure_App_Scope.png)
 
 
 **Step 4: Grant permissions**
@@ -70,7 +70,7 @@ Microservices architecture offers flexibility and scalability but also presents 
 8. Select Grant admin consent for (your tenant name).
 9. If you're prompted to select an account, select your currently signed-in administrator account, or sign in with an account in your Azure AD B2C tenant that's been assigned at least the Cloud application administrator role.
 10. Select Yes.
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgt-SV-xVKxdJi-d4JfF57ji3AYwLRk-f8UnEGBHRz4PC8Ce8VxRmjW_JT8T6Nr7tPC6gtgo97haMSt60VXIQKicV7aZyiI_mAsomselOT2VxvnLPQbzLHGIur6icGCYv8U5O8mW8WlFEPIznyLHMpVGbbMBWaSO1pxCy1vPw10ZR2gBlhr1s_Z1eSAizVI/w640-h492/9_Azure_App_API_Permission.png)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgt-SV-xVKxdJi-d4JfF57ji3AYwLRk-f8UnEGBHRz4PC8Ce8VxRmjW_JT8T6Nr7tPC6gtgo97haMSt60VXIQKicV7aZyiI_mAsomselOT2VxvnLPQbzLHGIur6icGCYv8U5O8mW8WlFEPIznyLHMpVGbbMBWaSO1pxCy1vPw10ZR2gBlhr1s_Z1eSAizVI/s16000/9_Azure_App_API_Permission.png)
 11. Select Refresh, and then verify that "Granted for ..." appears under Status for both scopes. 
 
 
@@ -81,7 +81,7 @@ If you register this app and configure it with https://jwt.ms/ app for testing a
 1. In the left menu, under **Manage**, select **Authentication**.
 2. Under Implicit grant and hybrid flows, select both the Access tokens (used for implicit flows) and ID tokens (used for implicit and hybrid flows) checkboxes.
 3. Select Save.
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnjJLLqmXhV-Z5kG1VK9hb_HfhV51berx-2Ul0uKuTDslNYBW6ccX2W3KC_2Zwq3XY4LbOvjyM4cS8V5bkc42XSSRPP6wUtmyh0v0AHEzIa0abKu3Ho52Lvy7p6gm3m9PY8fHarH5ThJdegBf5-OvZAqIlJrUbtuL4cadCpQfHtdU_hn1nFK9-TMFjf8kE/w640-h610/10_Azure_App_Authentication_Token_Settings.png)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnjJLLqmXhV-Z5kG1VK9hb_HfhV51berx-2Ul0uKuTDslNYBW6ccX2W3KC_2Zwq3XY4LbOvjyM4cS8V5bkc42XSSRPP6wUtmyh0v0AHEzIa0abKu3Ho52Lvy7p6gm3m9PY8fHarH5ThJdegBf5-OvZAqIlJrUbtuL4cadCpQfHtdU_hn1nFK9-TMFjf8kE/s16000/10_Azure_App_Authentication_Token_Settings.png)
 
 
 
