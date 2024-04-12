@@ -12,7 +12,7 @@ Resiliency is critical to building distributed systems, especially in microservi
 
 **Introduction to Polly Framework**
 
-Polly is a powerful resilience and transient-fault-handling library for .NET designed to help developers easily implement resiliency patterns. It provides a fluent interface for defining policies for retry, circuit breaker, and fallback strategies.
+Polly is a robust resilience and transient-fault-handling library for .NET designed to help developers quickly implement resiliency patterns. It provides a fluent interface for defining policies for retry, circuit breaker, and fallback strategies.
 
 **Retry Pattern**
 
@@ -32,7 +32,7 @@ The retry pattern allows you to automatically retry an operation that has failed
         .WaitAndRetry(5, retryAttempt => TimeSpan.FromSeconds(5));
     ```
 
-3. **Execute the Operation with Retry**: Use the retry policy to execute the operation that you want to retry.
+3. **Execute the Operation with Retry**: Use the retry policy to execute the operation you want to retry.
 
     ```csharp
     retryPolicy.Execute(() =>
@@ -98,6 +98,6 @@ The fallback pattern provides an alternative behaviour or value when an operatio
 
 **Conclusion**
 
-Implementing resiliency patterns like retry, circuit breaker, and fallback using the Polly framework can significantly enhance the reliability and robustness of your microservices architecture. By intelligently handling transient faults and failures, you can ensure that your application remains responsive and available under challenging conditions. Experiment with these patterns in your microservices projects to build more resilient and fault-tolerant systems.
+Implementing resiliency patterns like retry, circuit breaker, and fallback using the Polly framework can significantly enhance the reliability and robustness of your microservices architecture. By intelligently handling transient faults and failures, you can ensure that your application remains responsive and available under challenging conditions. You can just experiment with these patterns in your microservices projects to build more resilient, fault-tolerant systems.
 
 [**Source Code**](https://github.com/niranjankala/system-design-and-architecture/blob/main/microservices/src/PolyTutorials/PolyTutorials.App/Program.cs)
