@@ -8,17 +8,17 @@ canonical_url: https://niranjankala.in/post/building-resilient-microservices-imp
 layout: post
 ---
 
-Resiliency is a critical aspect of building distributed systems, especially in microservices architectures where failures are inevitable. In this comprehensive guide, we'll explore how to implement resiliency patterns using the Polly framework in .NET Core. We'll cover the retry pattern, circuit breaker pattern, and fallback pattern, each with detailed examples to help you understand their implementation and benefits.
+Resiliency is critical to building distributed systems, especially in microservices architectures where failures are inevitable. In this comprehensive guide, we'll explore how to implement resiliency patterns using the Polly framework in .NET Core. We'll cover the retry, circuit breaker, and fallback patterns, each with detailed examples to help you understand their implementation and benefits.
 
 **Introduction to Polly Framework**
 
-Polly is a powerful resilience and transient-fault-handling library for .NET, designed to help developers implement resiliency patterns easily. It provides a fluent interface for defining policies for retry, circuit breaker, and fallback strategies.
+Polly is a powerful resilience and transient-fault-handling library for .NET designed to help developers easily implement resiliency patterns. It provides a fluent interface for defining policies for retry, circuit breaker, and fallback strategies.
 
 **Retry Pattern**
 
 The retry pattern allows you to automatically retry an operation that has failed due to transient faults, such as network errors or temporary unavailability of resources. Let's dive into a step-by-step implementation of the retry pattern using Polly.
 
-1. **Install Polly NuGet Package**: Begin by installing the Polly NuGet package in your .NET Core application.
+1. **Install Polly NuGet Package**: First, install the Polly NuGet package in your .NET Core application.
 
     ```bash
     Install-Package Polly
@@ -70,7 +70,7 @@ The circuit breaker pattern is used to prevent repeated execution of an operatio
 
 **Fallback Pattern**
 
-The fallback pattern provides an alternative behavior or value when an operation fails. It helps gracefully handle failures by providing a fallback mechanism. Let's implement the fallback pattern using Polly.
+The fallback pattern provides an alternative behaviour or value when an operation fails. It helps gracefully handle failures by providing a fallback mechanism. Let's implement the fallback pattern using Polly.
 
 1. **Define a Fallback Policy**: Create a fallback policy specifying the fallback action to be executed when the primary operation fails.
 
@@ -84,7 +84,7 @@ The fallback pattern provides an alternative behavior or value when an operation
         });
     ```
 
-2. **Execute the Operation with Fallback**: Use the fallback policy to execute the primary operation, with fallback behavior defined.
+2. **Execute the Operation with Fallback**: Use the fallback policy to execute the primary operation, with fallback behaviour defined.
 
     ```csharp
     fallbackPolicy.Execute(() =>
@@ -94,7 +94,7 @@ The fallback pattern provides an alternative behavior or value when an operation
     });
     ```
 
-3. **Handle Fallback**: Polly will execute the fallback action when the primary operation fails, ensuring graceful degradation of functionality.
+3. **Handle Fallback**: Polly will execute the fallback action when the primary operation fails, ensuring graceful functionality degradation.
 
 **Conclusion**
 
