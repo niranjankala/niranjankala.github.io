@@ -48,7 +48,7 @@ Microservices architecture offers flexibility and scalability but also presents 
 4. Next to the Application ID URI, select the **Add** link.
 5. I have not changed the default GUID with my API, but you can replace the default value (a GUID) with an API and then select Save. The full URI is shown and should be in the format https://your-tenant-name.onmicrosoft.com/api. When your web application requests an access token for the API, it should add this URI as the prefix for each scope you define for the API.
 6. Under Scopes defined by this API, select **Add a scope**.    
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvpYZlUU51yvFo8nUnJNjn2ZH_3QwDyMz9u9PDS-_hTMsPS7-e7xzvpUMTAcBsanBfbdjTiS0YrrJnt1HgCH2n266I6RdiT08rO8XBgQIi6tpERL81Q0a1MsaeiddkfdCvU7eYAYVvGa6VkDLVAsaUjFjkof5OHV2QXviIMpW_RCbWATVia2PmVo5rebZk/s16000/1_Azure_App_Registration.png)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjM_OTTocO2e3uCwKpk-qGK18mSH1_IPUzYp2Lu3LIHVy4iwTksdgBPVXbC0meT9dHAjBPmIUMUwe9UWRJR8x-1EcLnl6cdaXVEPfROHB4HFluZNhoHtT4azrbu9SLWy9REGCnLv7KTMM0RtHrm2fxq2RtO3AqCQ29cV-s-DNVxGS8ZR8vmgLe2ket_55GH/s16000/7_Azure_App_Scope.png)
 
 7. Enter the following values to create a scope that defines read access to the API, then select **Add scope**:   
 
