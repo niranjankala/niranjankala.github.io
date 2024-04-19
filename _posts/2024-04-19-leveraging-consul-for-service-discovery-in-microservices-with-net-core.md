@@ -10,13 +10,13 @@ layout: post
 
 **Introduction:**
 
-In the realm of microservices architecture, service discovery plays a pivotal role in enabling seamless communication between services. Imagine having a multitude of microservices running across different ports and instances, and the challenge of locating and accessing them dynamically. This is where Consul comes into play.
+In a microservices architecture, service discovery is pivotal in enabling seamless communication between services. Imagine having a multitude of microservices running across different ports and instances and the challenge of locating and accessing them dynamically. This is where Consul comes into play.
 
 **Introduction to Consul:**   
-Consul, a distributed service mesh solution, offers robust features for service discovery, health checking, and key-value storage. In this tutorial, we'll explore how to leverage Consul for service discovery in a .NET Core environment. We'll set up Consul, create a .NET Core API for service registration, and develop a console application to discover the API using Consul.
+Consul, a distributed service mesh solution, offers robust service discovery, health checking, and key-value storage features. In this tutorial, we'll explore leveraging Consul for service discovery in a .NET Core environment. We'll set up Consul, create a .NET Core API for service registration, and develop a console application to discover the API using Consul.
 
 **Step 1: Installing Consul:**   
-Before we begin integrating Consul into our .NET Core applications, we need to install Consul. Follow these steps to install Consul:
+Before integrating Consul into our .NET Core applications, we need to install Consul. Follow these steps to install Consul:
 1. Navigate to the Consul downloads page: [Consul Downloads](https://www.consul.io/downloads).
 2. Download the appropriate version of Consul for your operating system.
 3. Extract the downloaded archive to a location of your choice.
@@ -35,7 +35,7 @@ Now, let's create a .NET Core API project named `ServiceDiscoveryTutorials.Catal
 ```bash
 dotnet new webapi -n ServiceDiscoveryTutorials.CatalogApi
 ```
-Next, configure the API to register with Consul upon startup. Add the Consul client package to the project:
+Next, configure the API to register with the Consul upon startup. Add the Consul client package to the project:
 ```bash
 dotnet add package Consul
 ```
@@ -150,11 +150,11 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IConsulC
 
 }
 ```
-With these configurations, the Catalog API will register itself with Consul upon startup and deregister upon shutdown.
+With these configurations, the Catalog API will register itself with the Consul upon startup and deregister upon shutdown.
 
 **Step 3: Creating the Client Application:**
 
-Next, let's create a console application named `ServiceDiscoveryTutorials.ClientApp`. Use the following command to create the project:
+Next, create a console application named `ServiceDiscoveryTutorials.ClientApp`. Use the following command to create the project:
 ```bash
 dotnet new console -n ServiceDiscoveryTutorials.ClientApp
 ```
@@ -196,14 +196,14 @@ class Program
     }
 }
 ```
-This code snippet retrieves all instances of the `CatalogApi` service registered with Consul.
+This code snippet retrieves all instances of the `CatalogApi` service registered with the Consul.
 
 **Step 3: Testing the API and Client Application:**   
 
 Below is the project structure in the Visual Studio.
    ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPV8piCZ1dyMifvo1cnmIjzhusqRH_98De3NUc6aCtZKp2YHwaJ7G8A4w5vAiJNr6lFVfFgp5OV0S9pVEfUymkgZV41ko3r3tFYpTcjovjapOwnK_1MJ_JqCPWzpFEF0x86zNsnUCubKlztSbsjll1woOt36dDq-cNDf9fXF0Z2bbYm9XhjgBH8QNKBAm5/s2122/5_Project_Setup_Https_Port_Settings.png) 
 
-Next, let's run the both application using the command `dotnet run`. When these application starts then Consul portal will display the registered service.
+Next, let's run both applications using the command `dotnet run`. When this application starts, the Consul portal will display the registered service.
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBHhutEGStgDvIulo_rm4KE1pDl7qE2s_F9RNJbFRjl1LhD4xiuSsGg_Cjs1M77f4MStU6xtkmQMSNVys6LtAfI0EdMuSE2ZYnK3IWLWVdDeRs7Clp78F-M2xZHnFw4i9uKHugkp0bO60zQVjPByvshE6t8EUbpXNfiwVVockajS1VPB9z1797bs6Iwk-2/s16000/6_Consul_Portal_State_After_Starting_Service.png) 
 
 Below is the final results of the application.
