@@ -20,12 +20,12 @@ Before integrating Consul into our .NET Core applications, we need to install Co
 1. Navigate to the Consul downloads page: [Consul Downloads](https://www.consul.io/downloads).
 2. Download the appropriate version of Consul for your operating system.
 3. Extract the downloaded archive to a location of your choice.
-   ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLNB_O20rYcepA5ODJRdCffeK37qz-MYZjLcInaiwtkVm8-1XHpBA3SDQGZkc1L1Ab_US7ZT_qoStCOIDch9l4AxNEc8KWGcN_R8qVkyiNVyrIjc6A6977X9s0n3UOmzHAdvfVkWYgbZxUMleBSCP_X5_0X1ryJ2baoOPhC8CG_ziteOqU_otBbYla2TUk/s16000/1_Download_Consul.png)
+   ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLNB_O20rYcepA5ODJRdCffeK37qz-MYZjLcInaiwtkVm8-1XHpBA3SDQGZkc1L1Ab_US7ZT_qoStCOIDch9l4AxNEc8KWGcN_R8qVkyiNVyrIjc6A6977X9s0n3UOmzHAdvfVkWYgbZxUMleBSCP_X5_0X1ryJ2baoOPhC8CG_ziteOqU_otBbYla2TUk/w640-h449/1_Download_Consul.png)
 4. Add the Consul executable to your system's PATH environment variable to run it from anywhere in the terminal or command prompt.
-   ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEwYrThFbQ4AvE5uZS3MNhYS3SO1BfncwPJf7I3zNeL5LREBZiiVi5My-UBmRLiEyFETF2IcMWYYOjP-l3d3wyI6bG89EfS1ykaFANQJbyqqkVCVQq4vgcdRqFG-9SnipIZ-Cs8cydcJyfb3Sxz82pGjgx7EAP49X5MPmph-YVmDffdPaxehZgDW0dI30Z/s16000/2_Consul_Path_Entry.png)
+   ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEwYrThFbQ4AvE5uZS3MNhYS3SO1BfncwPJf7I3zNeL5LREBZiiVi5My-UBmRLiEyFETF2IcMWYYOjP-l3d3wyI6bG89EfS1ykaFANQJbyqqkVCVQq4vgcdRqFG-9SnipIZ-Cs8cydcJyfb3Sxz82pGjgx7EAP49X5MPmph-YVmDffdPaxehZgDW0dI30Z/w640-h449/2_Consul_Path_Entry.png)
 5. Open a terminal or command prompt and verify the Consul installation by running the command `consul --version`.
 6.  Run the Consul server by running the command `consul agent -dev`.
-    ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgra4ZM1W3hSk4CV3atChoayoMsqAjIXCHS-eyoJRbhaBbSckSb31GSl38foM4hfbHqjjNAdObU8Cy280NroN0ANH5kV-eHwyMNTz2_5uRu4mNr-5sKXoqx3-qKgrEpW8Y_dP8fgzXJ2pt2M58yW8KlIx4G5sfigMLjYjzFk1JY4XCQ7LvxsF_9bij0goYs/s16000/3_Start_Consul_Agent.png) 
+    ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgra4ZM1W3hSk4CV3atChoayoMsqAjIXCHS-eyoJRbhaBbSckSb31GSl38foM4hfbHqjjNAdObU8Cy280NroN0ANH5kV-eHwyMNTz2_5uRu4mNr-5sKXoqx3-qKgrEpW8Y_dP8fgzXJ2pt2M58yW8KlIx4G5sfigMLjYjzFk1JY4XCQ7LvxsF_9bij0goYs/w640-h449/3_Start_Consul_Agent.png) 
     
 
 
@@ -204,11 +204,11 @@ Below is the project structure in the Visual Studio.
    ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPV8piCZ1dyMifvo1cnmIjzhusqRH_98De3NUc6aCtZKp2YHwaJ7G8A4w5vAiJNr6lFVfFgp5OV0S9pVEfUymkgZV41ko3r3tFYpTcjovjapOwnK_1MJ_JqCPWzpFEF0x86zNsnUCubKlztSbsjll1woOt36dDq-cNDf9fXF0Z2bbYm9XhjgBH8QNKBAm5/s2122/5_Project_Setup_Https_Port_Settings.png) 
 
 Next, let's run both applications using the command `dotnet run`. When this application starts, the Consul portal will display the registered service.
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBHhutEGStgDvIulo_rm4KE1pDl7qE2s_F9RNJbFRjl1LhD4xiuSsGg_Cjs1M77f4MStU6xtkmQMSNVys6LtAfI0EdMuSE2ZYnK3IWLWVdDeRs7Clp78F-M2xZHnFw4i9uKHugkp0bO60zQVjPByvshE6t8EUbpXNfiwVVockajS1VPB9z1797bs6Iwk-2/s16000/6_Consul_Portal_State_After_Starting_Service.png) 
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBHhutEGStgDvIulo_rm4KE1pDl7qE2s_F9RNJbFRjl1LhD4xiuSsGg_Cjs1M77f4MStU6xtkmQMSNVys6LtAfI0EdMuSE2ZYnK3IWLWVdDeRs7Clp78F-M2xZHnFw4i9uKHugkp0bO60zQVjPByvshE6t8EUbpXNfiwVVockajS1VPB9z1797bs6Iwk-2/w640-h449/6_Consul_Portal_State_After_Starting_Service.png) 
 
 Below is the final results of the application.
 
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi61agjLQZPXGDR6rznJw4Ba4BUfuOAgv3HSIeT0_norsBOay3ndCHGKFoweF52RNtxMGhDOyfpJ2il5zQ6k9rvinZCNv3RbtLLiZpnM0loSNueKhlw2HfB_5kvqxmUgMi9YNqXikkKPbZhchqPHsUo4w3IoNYCPpDpA4apFWlMWUvZAFqsxzPJmA0efDbe/s16000/7_Final_Demo.png) 
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi61agjLQZPXGDR6rznJw4Ba4BUfuOAgv3HSIeT0_norsBOay3ndCHGKFoweF52RNtxMGhDOyfpJ2il5zQ6k9rvinZCNv3RbtLLiZpnM0loSNueKhlw2HfB_5kvqxmUgMi9YNqXikkKPbZhchqPHsUo4w3IoNYCPpDpA4apFWlMWUvZAFqsxzPJmA0efDbe/w640-h449/7_Final_Demo.png) 
 
 
 
