@@ -35,8 +35,10 @@ You need to install the DevExpress NuGet package to use the DevExpress controls 
 Now, let's create a new form for our splash screen.
 
 1. Right-click on your project in the Solution Explorer.
+
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYLg0FZkr9RrpH5bSArUSCXoln1AhbzmOuXe0XAzHj-XJeLW58ObNY803JoPn0kGn5vQnuF6OofCv31la7S9jxxtkLI_2VJLk69X2LKaclVSe5fcymyP14kTXfKHYMH1b_KiKjJtZsMohbctiYT_HhBAfzWDj3vlMJVgtHQk9YHhwWPrk8Lcp76QAd0Ftr/s16000/1_DevEx_SplashScreen.png)
 2. Select "Add DevExpress Item" from the context menu.
+
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcXng4uc0NpOyhVodGUBThDR6wHffQ9FPpfcKI0OuALEA_lNZtjVFZpNTRju2bxuorcYPC_SsYsOkx-IP1PhT81JjjKgb2kavB0Byk3T84-opzjhVJx_WSnQRMN6OVj5K4PsPFzqRauJDoTSjZBrAlKdl4rpLCzFGTQ9bg9GeyWiUS_NxLHl605Ysa2Nnb/s16000/2_DevEx_Add_SplashScreen.png)
 3. Select "Splash Screen" from the DevExpres Template Gallery.
 4. Name the form "SplashScreenForm" and click "Add Item"
