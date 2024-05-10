@@ -219,4 +219,4 @@ In order to listen to the WAV file that your application created, you'll first n
     
 
 **Conclusion:**   
-By following the comprehensive instructions and utilizing the provided code snippets, you can leverage Azure AI services to seamlessly integrate text-to-speech capabilities into your applications. Whether converting plain text or utilizing SSML for customized audio output, Azure AI empowers developers to enhance user experiences and streamline workflow processes. Embrace the power of Azure AI and unlock new possibilities for your projects.
+By following the comprehensive instructions and utilizing the provided code snippets, you can leverage Azure AI services to seamlessly integrate text-to-speech capabilities into your applications. Azure AI empowers developers to enhance user experiences and streamline workflow processes. Embrace the power of Azure AI and unlock new possibilities for your projects.
