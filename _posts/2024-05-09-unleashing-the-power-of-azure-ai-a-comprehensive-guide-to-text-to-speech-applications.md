@@ -35,17 +35,17 @@ In the dynamic landscape of application development, efficiency and cost-effecti
 6. After the deployment is completed, click on the Go to resource button.
     
     ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgpYYceNITLa8dodlTX5IjoS_-zCS-973TLyVzcR31XaMV-_DMs4Y96vh7sdKRyZ7ihwwQsGunj4tlyOEBjkt-AbeNTEa3uLm-OZUUyIXNqKIseGH3cSlWcK3dkyn3F65LDcbq4uI4CiCwNKB-kL-p6-fjpNo8UTgrvdqEl7Pnf2v3gfNC_Xd9mxU-esID/s16000/4_Create_AI_Service.png)
-7. In your AzureAI-text-speechXX window, navigate to the Resource Management section, and click on Keys and Endpoints.
+7. In your AzureAI-text-speechXX window, navigate to the Resource Management section and click on Keys and Endpoints.
 
     ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisllN83LC4SDPCqzHja9w9CC8IrMhTG9TUnJCfUXf32_4_kReX_SfSmcSTddBIVnXPFVc5XXH7h4e3qCuS5K30_jnzH6m0Kjh7E4yw-qRd6_kO2z-wBUCAV_SWqE_9gfY9UAML9Ucs4nTTRY0Kra3alescfefxY6bCnELDLWtBOo1aaZiyRQxu4FQ5CnZi/s16000/5_AI_Service_Keys_Endpoints_1.png)
-8. Configure the account settings according to your requirements.In Keys and Endpoints page, copy KEY1, Region, and Endpoint values and paste them in a notepad as shown in the below image, then Save the notepad later use.
+8. Configure the account settings according to your requirements.In the Keys and Endpoints page, copy KEY1, Region, and Endpoint values and paste them into a notepad as shown in the below image, then Save the notepad for later use.
 
     ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSAMWhXbO7h6R5k3mxNOEBvQ8JEdjUcY2IBaSsamdLHw-fPBpJ70SUEso6lHHOtxnNfmUbz9Iiehl7OmiuInkU-4s5EG-LHEAl-GNsVridKACyu63pSwm6ODqMvB__txu7gEkhOb4uowKTU8lRTE8H5ff5g8ZWor3ImguTFPE1ifXnOpDbltFM8YvWtKs5/s16000/6_AI_Service_Copy_Keys_Endpoints.png)
    
 
 **Step 2: Create your text to speech application**
 
-1.  In the Azure portal, click on the **\[>\_\] (Cloud Shell)** button at the top of the page to the right of the search box. A Cloud Shell pane will open at the bottom of the portal. The first time you open the Cloud Shell, you may be prompted to choose the type of shell you want to use (**Bash** or **PowerShell**). Select **Bash**. If you don't see this option, then skip this step.
+1.  In the Azure portal, click on the **\[>\_\] (Cloud Shell)** button at the top of the page to the right of the search box. A Cloud Shell pane will open at the bottom of the portal. The first time you open the Cloud Shell, you may be prompted to choose the type of shell you want to use (**Bash** or **PowerShell**). Select **Bash**. If you don't see this option, then you can go ahead and skip this step.
     
     ![6wavjic5.jpg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsNgi41jQcIfpEO881ash2xqqUjYIjnrCNDTmqwel4qhy1fvrQFUX46FPDgc-TDANYRDZzBtcgvRrMesvqZzgX2EmEne44K3r3WQ3gHAx4sNqRYVr-FQ9hCkv999-1GaIvenGjCFQvnkdf1e73T6U5Ce-5wa5hX7NtR1Io0Oe2vAkUZMYq6FTAH6AtCpKH/s16000/1_Open_Azure_Cloud_Shell.jpg)
     
@@ -102,7 +102,7 @@ In the dynamic landscape of application development, efficiency and cost-effecti
     
     ![uo6fzs9i.jpg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmpdFcTNn2Wzz7Br2LZknL2BgFqw9_WJF9hH0lFpGoT45Vr4yjrK2q_AlQW13rESQYlQMwenZ2QjkOI0akkD56FT3XWwIEu_FS_Zbn1gt6TCf8-5LIHTRflXWZqPnzZlo0G9VE48Ynr8n4jr3_3SKVHx_l68brfzt38SZ-q6nhs399oDUbZyzfSJsooBPZ/s16000/7_Azure%20AI%20Speech%20API.jpg)
     
-3.  Below the using statements, add the following code, which uses Azure AI Speech APIs to convert the contents of the text file that you'll create to create a WAV file with the synthesized voice. Replace the **azureKey** and **azureLocation** values with the ones you copied in the last task 1.
+3.  Below the using statements, add the following code, which uses Azure AI Speech APIs to convert the contents of the text file you'll create into a WAV file with the synthesized voice. Replace the **azureKey** and **azureLocation** values with the ones you copied in the last task 1.
     
    
     
@@ -172,7 +172,7 @@ In the dynamic landscape of application development, efficiency and cost-effecti
         
     `dotnet run`
     
-2.  If you don't see any errors, your application has run successfully. To verify, run the following command to get a list of files in the directory.
+2.  If you don't see any errors, your application has run successfully. To verify, you can just run the following command to get a list of files in the directory.
     
     
     
@@ -185,7 +185,7 @@ In the dynamic landscape of application development, efficiency and cost-effecti
 
 ## **Step 6: Listen to WAV file**
 
-In order to listen to the WAV file that your application created, you'll first need to download it. To do so, use the following steps.
+To listen to the WAV file that your application created, you'll first need to download it. To do so, you can just use the following steps.
 
 1.  In the Cloud Shell on the right, use the following command to copy the WAV file to your temporary cloud drive:
    
@@ -225,4 +225,4 @@ In order to listen to the WAV file that your application created, you'll first n
     
 
 **Conclusion:**   
-By following the comprehensive instructions and utilizing the provided code snippets, you can leverage Azure AI services to seamlessly integrate text-to-speech capabilities into your applications. Azure AI empowers developers to enhance user experiences and streamline workflow processes. Embrace the power of Azure AI and unlock new possibilities for your projects.
+Following the comprehensive instructions and the provided code snippets, you can seamlessly leverage Azure AI services to integrate text-to-speech capabilities into your applications. Azure AI empowers developers to enhance user experiences and streamline workflow processes. Embrace the power of Azure AI and unlock new possibilities for your projects.
