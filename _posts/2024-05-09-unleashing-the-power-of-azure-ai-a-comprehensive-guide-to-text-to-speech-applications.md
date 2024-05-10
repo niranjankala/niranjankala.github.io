@@ -41,15 +41,15 @@ In the dynamic landscape of application development, efficiency and cost-effecti
 
 1.  In the Azure portal, click on the **\[>\_\] (Cloud Shell)** button at the top of the page to the right of the search box. A Cloud Shell pane will open at the bottom of the portal. The first time you open the Cloud Shell, you may be prompted to choose the type of shell you want to use (**Bash** or **PowerShell**). Select **Bash**. If you don't see this option, then skip this step.
     
-    ![6wavjic5.jpg](https://labondemand.blob.core.windows.net/content/lab146372/instructions237197/6wavjic5.jpg)
+    ![6wavjic5.jpg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsNgi41jQcIfpEO881ash2xqqUjYIjnrCNDTmqwel4qhy1fvrQFUX46FPDgc-TDANYRDZzBtcgvRrMesvqZzgX2EmEne44K3r3WQ3gHAx4sNqRYVr-FQ9hCkv999-1GaIvenGjCFQvnkdf1e73T6U5Ce-5wa5hX7NtR1Io0Oe2vAkUZMYq6FTAH6AtCpKH/s16000/1_Open_Azure_Cloud_Shell.jpg)
     
 2.  In **You have no storage mounted** dialog box, click on the **Create storage.**
     
-    ![i8pikt8d.jpg](https://labondemand.blob.core.windows.net/content/lab146372/instructions237197/i8pikt8d.jpg)
+    ![i8pikt8d.jpg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_cQT1b74ya_K4-FhMxZN28tCYo6-PkHub_WetYddLZkrgF5SNhUsm2OwZSUV-TKXok_6rqMWUWKP9q9lqV5rt9cXRWtS2CBb3xdsc9zOHbzqxGhiasV04_Mcs5T7ntccEiTANwqV8YW22GmYCN-0U0qmMNRfiDr915IIiu-S-xPmLr80jR07qx9X6TA17/s16000/2_Azure_Cloud_Shell_Select_Subscription.jpg)
     
 3.  Ensure the type of shell indicated on the top left of the Cloud Shell pane is switched to _**Bash**_. If it's _**PowerShell**_, switch to _**Bash**_ by using the drop-down menu.
     
-    ![qbb1qkgf.jpg](https://labondemand.blob.core.windows.net/content/lab146372/instructions237197/qbb1qkgf.jpg)
+    ![qbb1qkgf.jpg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJIQyqNwYE3sh548lzgPX_hpGeNm_PPyszx1UHRjo9bKDoO-7aQ5nNk61Igawtn2QiCIR7FGmwibarGuw1LlzopKU6_iv2sqhxgIZePr7P58V5FU-W1nL4bhXTCJMFatc9r_wgDJOA4cvni8zzf2HrlEh7l4ALhOszUAEZUR1iWaQrfWZDJi-Kiy6ql-yx/s16000/3_Azure_Cloud_Shell_Select_Bash.jpg)
     
 4.  In the Cloud Shell on the right, create a directory for your application, then switch folders to your new folder. Enter the following command
     
@@ -59,21 +59,21 @@ In the dynamic landscape of application development, efficiency and cost-effecti
     cd text-to-speech
     ```
     
-    ![s1xdm90b.jpg](https://labondemand.blob.core.windows.net/content/lab146372/instructions237197/s1xdm90b.jpg)
+    ![s1xdm90b.jpg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzPtveCXcMZkFo7UKYpsbLqdQRuX3d8EP_DwBszNTfLBLjGX3sPvfvgJE86n36InhcjlcmAXXvJcUjd9ucVlAq0HIoXSAGemxxYp7mnwyqSbfnjnsCH-zoEiWTADGouS68zWqkKaybqvcXUkaiPFCRCFgavDObkSGbpvjeH34ZJj6KOsfX0IDE2sIeFXFv/s16000/4_Azure_Cloud_Shell_Make_Directory.jpg)
     
 5.  Enter the following command to create a new .NET Core application. This command should take a few seconds to complete.
     
         
     `dotnet new console`
     
-    ![lfvq8jtr.jpg](https://labondemand.blob.core.windows.net/content/lab146372/instructions237197/lfvq8jtr.jpg)
+    ![lfvq8jtr.jpg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxC9h7EZeOLuI8cb6MZEV6Fx4fjlgc1gzAkxVFN148LNgUVOv6aayUYc44LUVkL9BtktJzPhDkP8a-xfCObwYtkRxJ5n7DlgOrYvHG8ypX8J_SG2MJHvNfr8_sw7hKJT8zyIvGXSJxPFAP45g5SBdXR5eADR8rbX-Q91x3Ioe53-Rg03B908i-FSFWf-ee/s16000/5_Azure_Cloud_Shell_Create_Project.jpg)
     
 6.  When your .NET Core application has been created, add the Speech SDK package to your application. This command should take a few seconds to complete.
     
         
     `dotnet add package Microsoft.CognitiveServices.Speech`
     
-    ![0wp2tdec.jpg](https://labondemand.blob.core.windows.net/content/lab146372/instructions237197/0wp2tdec.jpg)
+    ![0wp2tdec.jpg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKxcCw8RvVZ2whC7Pp1l8-XPU6pDc5IjtSWEYAOhNUSSjaCyVAbl8JJ2qy1CxH_JPFeMtD5_kG7cEgnpd-kJjCHszdFeEsJLuV90GcAgnCzmtD32qj09vBC9NNvJgg8tv-EgDF3YCNMPT-oWui86P4DAuGLjYG8reLMGMYLCb55X8shyphenhypheneTOu7Gyf2oth_A/s16000/6_add%20package.jpg)
     
 
 **Step 3:Add the code for your text to speech application**
@@ -94,7 +94,7 @@ In the dynamic landscape of application development, efficiency and cost-effecti
     using Microsoft.CognitiveServices.Speech.Audio;
     ```
     
-    ![uo6fzs9i.jpg](https://labondemand.blob.core.windows.net/content/lab146372/instructions237197/uo6fzs9i.jpg)
+    ![uo6fzs9i.jpg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmpdFcTNn2Wzz7Br2LZknL2BgFqw9_WJF9hH0lFpGoT45Vr4yjrK2q_AlQW13rESQYlQMwenZ2QjkOI0akkD56FT3XWwIEu_FS_Zbn1gt6TCf8-5LIHTRflXWZqPnzZlo0G9VE48Ynr8n4jr3_3SKVHx_l68brfzt38SZ-q6nhs399oDUbZyzfSJsooBPZ/s16000/7_Azure%20AI%20Speech%20API.jpg)
     
 3.  Below the using statements, add the following code, which uses Azure AI Speech APIs to convert the contents of the text file that you'll create to create a WAV file with the synthesized voice. Replace the **azureKey** and **azureLocation** values with the ones you copied in the last task 1.
     
@@ -126,7 +126,7 @@ In the dynamic landscape of application development, efficiency and cost-effecti
     }
     ```
     
-    ![nq1qs7oa.jpg](https://labondemand.blob.core.windows.net/content/lab146372/instructions237197/nq1qs7oa.jpg)
+    ![nq1qs7oa.jpg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjZLiFB-MCzN6n0man_f4IqKLVAs1KQI1XBs2RPH6YWVgvp-9_Zl5u5gb7f0tohQtHhvCTGz9DQFriDjTBJj4QR_l5yeeHMQ9DB8i3bfbNVrgkSyq1gqowxBYLq8tcBur95IF0eq8NyaDebXcFFGJwR_fKsFDxzwqSFpL0UXl8J8T3FubQq7yF4HSWurPP/s16000/8_Azure%20AI%20Speech%20API_Configuration.jpg)
     
 4.  This code uses your key and location to initialize a connection to Azure AI services, then reads the contents of the text file you\\'ll create, then uses the SpeakTextAsync() method of the speech synthesizer to convert the text to audio, then uses an audio stream to save the results to an audio file.
 5.  To save your changes, press **Ctrl+S** to save the file, and then press **Ctrl+Q** to exit the editor
@@ -155,7 +155,7 @@ In the dynamic landscape of application development, efficiency and cost-effecti
     His acts being seven ages.
     ```
     
-    ![dbjulb6c.jpg](https://labondemand.blob.core.windows.net/content/lab146372/instructions237197/dbjulb6c.jpg)
+    ![dbjulb6c.jpg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwJnjAeSkafMmHCnkRAUqDGDDOpdUbzQeEAi9jq6cH6SW5Kigg1-6lZ5qj1USbawPNBACoMHnVG9PL5qHvNg1flATtqB-DAI_eTuQkwG-fcQdDUUneYjXfDFeKErKLIhJaQyAfUcPlJH9ePZy7hIXoyxSg6ObldcuC0DkpOlqXWxuhdr1nFK9pp8Hsv69O/s16000/9_Text_iInput.jpg)
     
 3.  To save your changes, press **Ctrl+S** to save the file, and then press **Ctrl+Q** to exit the editor
 
@@ -187,35 +187,35 @@ In order to listen to the WAV file that your application created, you'll first n
     
     `cp Shakespeare.wav ~/clouddrive`
     
-    ![dputtw5l.jpg](https://labondemand.blob.core.windows.net/content/lab146372/instructions237197/dputtw5l.jpg)
+    ![dputtw5l.jpg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSEyeGyHn9aet6FoNxovNqmHzPOaK2lXXZ3LOU_ATvJxsNosWhNB1Pg4vQh6Xo3EbPnHkKL00REZJXlzUevi9MjxmpO4DoIbSkz2B6z7A3PlgwplCR2GeSFp0qiIdD6FnkNcrfRrh-RuOiVoAO6GpKyKHd_jzCATWuzSxq9cdPL2f4En1Q1S6FA77ROBQh/s16000/10_Copy%20the%20WAV%20file.jpg)
     
 2.  In the Azure portal search box, type **Storage account**, then click on **Storage account** under **Services**.
     
-    ![shyvtngw.jpg](https://labondemand.blob.core.windows.net/content/lab146372/instructions237197/shyvtngw.jpg)
+    ![shyvtngw.jpg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2T5wia5n6i9KzFyByHxagLDqDgOB49RQpDl2XpJaecmLMhIilucI9IknLZOIsW80raUcySMML2HbDvE_a-Wi5X8laL4lO_V91SovsB4upcAbZgyKY60hMCnzUN_tNqEn17stHWJ-l6d8-RIS2tZcj_F_F3DDErl_xzBtM225alyFvgXdjsEi6-o96Aeow/s16000/11_Search_Storage_Account_In_Portal.jpg)
     
 3.  In the **Storage accounts** page, navigate and click on **cloud storage account** .
     
-    ![eq320wdc.jpg](https://labondemand.blob.core.windows.net/content/lab146372/instructions237197/eq320wdc.jpg)
+    ![eq320wdc.jpg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWTyhsjcIzahxI7rJQUzObG2yDEkbEmsX3KHdzwxBwtu48tT5BBEdlklAeIY3L1wSWIKOSjSu1_xxzl68IDEAuxXbCfQn4Ijj_Xx79BReP9jNnOvBxJfYwR6qA6WX6K5c73weAti8YGqKay7Q-EC3r0KPLL34kOwG605aEA-MZOp6drKyzpA1z3FPcWumc/s16000/12_click_on_Storage_Account_In_Portal.jpg)
     
 4.  In the **Storage account** page left-sided navigation menu, navigate to the **Data storage** section, then click on the **File shares**.
     
-    ![p1b7cwn3.jpg](https://labondemand.blob.core.windows.net/content/lab146372/instructions237197/p1b7cwn3.jpg)
+    ![p1b7cwn3.jpg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinSFIovo5MGviiAJWojtizLiXmsNo_SGLwnqCVhQQWTEEE_NuF5GRcSdJGq-LY1JHw-ThfyiqbC2ubpkQ8IjZqpRtx_BHOSYBC9A0iRXyD6ejFw8ROQlb5nDUy-Q5JEDZCmoBBdIBk8hsUoMSBk6kKFZF47y9zSAvl3bYD4z1tHbUGrLS8Z4Gzt7nJe2l7/s16000/13_Select_File%20shares.jpg)
     
 5.  Then select your **cloudshellfilesXXX** file share.
     
-    ![xzj0kvaf.jpg](https://labondemand.blob.core.windows.net/content/lab146372/instructions237197/xzj0kvaf.jpg)
+    ![xzj0kvaf.jpg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivy1sbLERU4-NvIFU4RQz9__93WF-AD_NH0KcdL7ps7fstZ8U2T4GROlJjWK3z4QlXFccJTFI_Y18MTukcP6K-PGPddFgB_LN1uMvs071mNu5rEWZyJfcmE5MKTr3qrzTcnGBBxijfx-cgBjKcgOh-r6EsGOwGqxXlFZ7H7XM8mnEPn5zedolzgUSDaCPp/s16000/14_Select_File%20shares_Instance_cloudshellfilesXXX.jpg)
     
 6.  When your **cloudshellfilesXXX** file shares page is displayed, select **Browse**, then select the **Shakespeare.wav** file, then select the **Download** icon.
     
-    ![0yl4iwyw.jpg](https://labondemand.blob.core.windows.net/content/lab146372/instructions237197/0yl4iwyw.jpg)
+    ![0yl4iwyw.jpg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6iVTnCv_hd5PxTXzpoOjwXIES5pCJCd8Lokv2tm2te9J3CFZv3IN5Kx_mAuAZh1gjeZo93nBOFXzF1f64pC6VK7zHi7Mkc0Zcu8mgbhMZL7E1QOugP9VYyMk3XXCRARnh_f2mVpIqcWqO3Ree9Z9WCYLEky5LzJSIsry_RGT77ZBmYLLpjWQHSUtG82GD/s16000/15_Select_Shakespeare_wav_file_cloudshellfilesXXX.jpg)
     
-    ![7godv6yk.jpg](https://labondemand.blob.core.windows.net/content/lab146372/instructions237197/7godv6yk.jpg)
+    ![7godv6yk.jpg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_feck45iZLDJv6Lgwge7iPTLU-aYBeGaYXIjk5Lx9jyKUYXNIrems-FQjMm7xo7j16Wwa9mLFr_v7fNmIFP0hWt_a6x2-FG4asBpI75RDfMGemHK9NtW7K3qjgpfgBOmumFBbtY5fHHZMzCXxuG9e0UZ-wOMM8MnHar2enTpis-mnYk2uIPAt-B48GrBU/s16000/16_Download_Shakespeare_wav_file.jpg)
     
 7.  Download the **Shakespeare.wav** file to your computer, where you can listen to it with your operating system's audio player.
     
-    ![b1e0awv0.jpg](https://labondemand.blob.core.windows.net/content/lab146372/instructions237197/b1e0awv0.jpg)
+    ![b1e0awv0.jpg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiRk-_mXHSlUrzLwkmKgLie8UKtrFn9U5tnOnlRLHmqy3-Dn2OEeMtTD_nkG98KeObQBnsi2cTyPNkX3Qb5OO0GgQr9TEet1pnqfI4NyOnehgNGhMFDhHWg-E_ElAWTYi83szUPVKMIGSvRtin-Cra9k7GMumh7PGSydCkKYLXodVoUXmzbxwMddybCEvq/s16000/17_Download_Complete_Shakespeare_wav_file.jpg)
     
-    ![w2pcp960.jpg](https://labondemand.blob.core.windows.net/content/lab146372/instructions237197/w2pcp960.jpg)
+    ![w2pcp960.jpg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3RH2BgwOmTJ6FWoiJsIqLe2lm0L6GqmWnGz_foCfUUmAkawnXsvpfJ5fveq-c12is6lb_tw6_N8IUeUJa9AYdFjFHIEfAsM-CcYB8aHdOCfgxQQvAwOO4WpeFdKJWTNFSBvWwKCCz_9hWgemBGB5ri0DrUfQhH0hkqVm6qAygaZ18gjNi0bPe5aE5XACo/s16000/18_Play_Shakespeare_wav_file.jpg)
     
 
 **Conclusion:**   
