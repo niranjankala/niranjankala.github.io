@@ -26,7 +26,8 @@ In the dynamic landscape of application development, efficiency and cost-effecti
 
     ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivwhLAYBsKF4-PZE0us7M8k_FjLvdfSqjRt77Nu1LTcZPqNas45rqNJeeC61pAaeqUYI66E3hjxUrwfOXavzL89sfhnu6PqqOPbAaU5GZgSP_dIFM99ogfSh5_VppJE2d9e0HKepMU-4j_fjcslFWS5sRSiwkMRjfCRXTkJgMzDJPOlzYnBXbAJ7_LU9pd/s16000/1_Create_AI_Service.png)
 3. In the Create Azure AI window, under the Basics tab, enter the following details and click on the Review+create button.
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvRaB4sL8ybpw-zn5xl-xHNfqUR050AFmeA4n1-X4OkUttCXbi0a-rl4vDVD-bZFnEwwTHrKxG7rNAkvCym4BzgBM2f5KSfXpArbZsmm8iZXKtFMZI7Ol6dL1qA1SeUAnd-P-WWbDk6EhBJcpTW0mL_N84itzUQEcdn0EV6FW1noyCKdAcphPFq1J3p0U8/s16000/2_Create_AI_Service.png)
+
+    ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvRaB4sL8ybpw-zn5xl-xHNfqUR050AFmeA4n1-X4OkUttCXbi0a-rl4vDVD-bZFnEwwTHrKxG7rNAkvCym4BzgBM2f5KSfXpArbZsmm8iZXKtFMZI7Ol6dL1qA1SeUAnd-P-WWbDk6EhBJcpTW0mL_N84itzUQEcdn0EV6FW1noyCKdAcphPFq1J3p0U8/s16000/2_Create_AI_Service.png)
 4. In the Review+submit tab, once the Validation is Passed, click on the Create button.
 
     ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6naELEmIF4MGnCIvO5e7XAyFe89ngARG_F_hs2W-LdicTW_cwAkimUKlVqezbDEL4V1ruPr1MKqxiHrSrLtp9r88dPF9g6K8uwsvoJcKVN0aJ3TXZvQfbuYYexVKv8zqsdGw3jloOEg124m1AfzrkPrUO-Wuvop01MD_i1CJqNnxh0aqZrMR0h7dkGSwA/s16000/3_Create_AI_Service.png)
