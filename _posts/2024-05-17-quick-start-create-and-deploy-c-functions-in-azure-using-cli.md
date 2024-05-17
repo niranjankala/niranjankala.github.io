@@ -169,9 +169,18 @@ You can use the following commands to create these items. Both Azure CLI and Pow
    ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6lrUML3jHdSlc3g1ywGyorvOlmx6AjgTaq0F0QxS5Kw7h13qEk5RpjFBp1cs3ujCPGtoSHih4NVOX2lj2-QtPAkgsaL4SOxiRZ6F7aDQQN0XygQFwrBMnBhND58p2OZGB4WPMfoBKNPX87OOyQNyvYjGjFTymUAVB4VKr1cEOzfVfEJLS76z_pzV5iGgt/s16000/10_Create_Storage_Account_For_Function_2.png)
 
 4. **Create the function app:**
+
+    Create the function app in Azure: Execute the below command:
    ```azurecli
    az functionapp create --resource-group RGForFunctionApp --consumption-plan-location eastus --runtime dotnet-isolated --functions-version 4 --name appforfunc07 --storage-account storaccforazfunc07
    ```
+   The az functionapp create command creates the function app in Azure.
+
+   - storaccforazfunc07 is the storage account that we created in the previous step.
+
+   - appforfunc07 is the name of the app that we create here. It needs to be globally unique. Replace 98 with any random number to ensure uniqueness.
+
+   
    ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_mwHNG-z9TLgFHvvQ0btzBA0vZsAIIi-JDcsfejloveFhVX9STGjgmA89Udq6odZ-uTx5qlo9nzpuiFPn7rpZK5aGmaGZoeSgtLZGG0fSQm8LcSBr_Z1t4dEDXBXPbvUek5taxpfQLTsL3Xmwy7QvG9pyIpolSx8iTBOZjRjdXGcu1cf5eKgUxyXwKxMp/s16000/11_Create_Function_In_RGForFunctionApp.png)
 
    ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4PBHIBD1rNo_cr64IDpHNzIWG8vu_MXfgfD-71Hv35NZWO_72lRPK_vdMGz2J4V3JgqMub7mGVW7Pc7MpXklGlvksKipMpNJPQQ99p0-T02_YPrzco7CeLsPDOw-dVUxUB8p4be9VVE3iMHzeTa9iIuNkb8x7P99e7wlAYmxBzUlcKD_BUL7h3jXVgtGj/s16000/12_View_Resources_In_Azure_Portal.png)
