@@ -9,11 +9,11 @@ layout: post
 ---
 
 
-#### Introduction
+### Introduction
 
 In this blog post, we'll guide you through the process of creating and deploying a C# function to Azure using command-line tools. This article will walk you through creating an HTTP-triggered function that runs on .NET 8 in an isolated worker process. By the end of this post, you will have a functional Azure Function that responds to HTTP requests.
 
-#### Objective
+### Objective
 
 In this article, you will:
 1. Install the Azure Functions Core Tools.
@@ -22,14 +22,14 @@ In this article, you will:
 4. Deploy the function to Azure.
 5. Access the function in Azure.
 
-#### Prerequisites
+### Prerequisites
 
 Ensure you have the following installed:
 - Azure CLI (version 2.4 or later)
 - .NET SDK (version 6.0 and 8.0)
 - Azure Functions Core Tools (version 4.x)
 
-#### Step 0: Install Azure Functions Core Tools
+### Step 0: Install Azure Functions Core Tools
 
 1. **Uninstall previous versions (if any):**
    - Open the **Settings** from the Start menu.
@@ -46,7 +46,7 @@ Ensure you have the following installed:
        ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8Dg0ylkih8DozawwNhS-yGk3MFqkICSRepnCZlXay5KzQh1-PhqLTEm-zgf8JG8ej4TZw26DCludXnXPylzAKCSiFXYqOD68_OuUAhsPr4f1YPp4LK3NT5-uxv84Mp-6OAA8fld4f_1qOzY779r80EL6OhG4c-B6Du6nSeKQ29f1ebVqgN36PS0kY5M1R/s16000/2_Install_Azure_Function_Core_Tools.png)
    - Click **Finish** once the installation completes.
 
-#### Step 1: Prerequisite Check
+### Step 1: Prerequisite Check
 
 1. Open Command Prompt and execute the following commands to verify your setup:
    - **`func --version`** – This is to check that the Azure Functions Core Tools are version 4.x.
@@ -63,7 +63,7 @@ Ensure you have the following installed:
 
    ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCeE8iaRu-cBX4ZLE9rqumNKiair8s0aI13MN5x8Zh8oGyXHsGqp8toybwRVBEq6_LbphRrRNu9cAc1phmz2KnROhh3Pf-yeGTyUNkljdvQU0vLi7oiMNp2TAvVea7SsnirXSQYmfrs-vUPg4dgo2N_-fAEjdf5L-WugiJr4N5mw1UimlgnetRmVYOgT5e/s16000/5_Prerequisite%20check_Azure_Login_Post_Message.png)
 
-#### Step 2: Create a Local Function Project
+### Step 2: Create a Local Function Project
 
 1. **Initialize the function project:**
    Run the func init command, as follows, to create a functions project in a folder named LocalFunctionProj with the specified runtime:
@@ -111,7 +111,7 @@ Ensure you have the following installed:
    ```
    ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjTv_xiHSNHi8bB49fp8XCzmGcVY5bWYsSzCpBdy7cx3vycpW2sHwalLg1lLL_RyeeHJg7vaB2e26-KbrtslWDpcL2oAHo5Qg4l6R81h_nKIgfvni3IUypSqATOTg-3LJSXMztcyMPs3DfQBeZ5tiaCd__CDRB8OLUdoeHLOTl6e5G7wAUjKmyXaZS1Yq9/s16000/7_Review_Code_For_Function.png)
 
-#### Step 3: Run the Function Locally
+### Step 3: Run the Function Locally
 
 1. **Start the local Azure Functions runtime host:** Run your function by starting the local Azure Functions runtime host from the LocalFunctionProj folder:
    ```sh
@@ -127,7 +127,7 @@ Ensure you have the following installed:
 3. **Stop the function host:**
    - Press `Ctrl+C` and confirm with `y`.
 
-#### Step 4: Create Supporting Azure Resources
+### Step 4: Create Supporting Azure Resources
 
 Before you can deploy your function code to Azure, you need to create three resources:
 
@@ -176,7 +176,7 @@ Use the following commands to create these items. Both Azure CLI and PowerShell 
 
    ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4PBHIBD1rNo_cr64IDpHNzIWG8vu_MXfgfD-71Hv35NZWO_72lRPK_vdMGz2J4V3JgqMub7mGVW7Pc7MpXklGlvksKipMpNJPQQ99p0-T02_YPrzco7CeLsPDOw-dVUxUB8p4be9VVE3iMHzeTa9iIuNkb8x7P99e7wlAYmxBzUlcKD_BUL7h3jXVgtGj/s16000/12_View_Resources_In_Azure_Portal.png)
 
-#### Step 5: Deploy the Function Project to Azure
+### Step 5: Deploy the Function Project to Azure
 After you've successfully created your function app in Azure, you're now ready to deploy your local functions project by using the **func azure functionapp publish** command.
 1. **Deploy the function:**
    ```sh
@@ -187,7 +187,7 @@ After you've successfully created your function app in Azure, you're now ready t
    ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdNRLSwBC-xyce7X_ylxO3txLQHMpaYl_Oy4Ajsgh-WTIvfZ_ksJUoK2DLGKX3SGcdn_9UWms5lrzHpPOBQJqNh0iCyppCfgij4eztMiitckJT5W2Nt1oddXMfgMWADkj1q4sZQEOdNRJFekaIZpyLTv2e6qBGmQWORzEMW_JtSoKvdkbN8uBMSj_t7FLv/s16000/13_Deploy_Function_To_Azure.png)
 
    
-#### Step 6: Invoke the Function on Azure
+### Step 6: Invoke the Function on Azure
 
 1. **Invoke the function using a browser:**
    - Copy the Invoke URL and paste it into a browser.
@@ -206,7 +206,7 @@ After you've successfully created your function app in Azure, you're now ready t
    - Open another terminal or browser window and call the function URL again to see the logs in real-time.
    - Press `Ctrl+C` to end the logstream session.
 
-#### Step 7: Clean Up Resources
+### Step 7: Clean Up Resources
 
 1. **Delete the resource group:** 
 
@@ -216,6 +216,6 @@ After you've successfully created your function app in Azure, you're now ready t
    az group delete --name RGForFunctionApp
    ```
 
-##### Conclusion
+#### Conclusion
 
 Congratulations! You've successfully created, tested, and deployed a C# function to Azure using command-line tools. This step-by-step guide has walked you through installing necessary tools, setting up a local development environment, creating and running a function locally, deploying it to Azure, and finally cleaning up the resources. Azure Functions provides a powerful, serverless compute environment to build and deploy scalable, event-driven applications with ease. Happy coding!
