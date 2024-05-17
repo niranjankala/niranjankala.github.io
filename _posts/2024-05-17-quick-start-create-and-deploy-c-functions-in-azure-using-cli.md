@@ -161,7 +161,7 @@ Use the following commands to create these items. Both Azure CLI and PowerShell 
 
     Create a general-purpose storage account in your resource group and region.
    ```azurecli
-   az storage account create --name storaccforazfuncXX --location eastus --resource-group RGForFunctionApp --sku Standard_LRS --allow-blob-public-access false
+   az storage account create --name storaccforazfunc07 --location eastus --resource-group RGForFunctionApp --sku Standard_LRS --allow-blob-public-access false
    ```
    The **az storage account create** command creates the storage account named **storaccforazfunc07** in the **EastUS** region. The details are populated in the command prompt with a provisioning state succeeded.
 
@@ -170,7 +170,7 @@ Use the following commands to create these items. Both Azure CLI and PowerShell 
 
 4. **Create the function app:**
    ```azurecli
-   az functionapp create --resource-group RGForFunctionApp --consumption-plan-location eastus --runtime dotnet-isolated --functions-version 4 --name appforfuncXX --storage-account storaccforazfuncXX
+   az functionapp create --resource-group RGForFunctionApp --consumption-plan-location eastus --runtime dotnet-isolated --functions-version 4 --name appforfunc07 --storage-account storaccforazfunc07
    ```
    ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_mwHNG-z9TLgFHvvQ0btzBA0vZsAIIi-JDcsfejloveFhVX9STGjgmA89Udq6odZ-uTx5qlo9nzpuiFPn7rpZK5aGmaGZoeSgtLZGG0fSQm8LcSBr_Z1t4dEDXBXPbvUek5taxpfQLTsL3Xmwy7QvG9pyIpolSx8iTBOZjRjdXGcu1cf5eKgUxyXwKxMp/s16000/11_Create_Function_In_RGForFunctionApp.png)
 
