@@ -178,7 +178,7 @@ You can use the following commands to create these items. Both Azure CLI and Pow
 
    - storaccforazfunc07 is the storage account that we created in the previous step.
 
-   - appforfunc07 is the name of the app that we create here. It needs to be globally unique. Replace 98 with any random number to ensure uniqueness.
+   - appforfunc07 is the name of the app that we create here. It needs to be globally unique. 
 
    
    ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_mwHNG-z9TLgFHvvQ0btzBA0vZsAIIi-JDcsfejloveFhVX9STGjgmA89Udq6odZ-uTx5qlo9nzpuiFPn7rpZK5aGmaGZoeSgtLZGG0fSQm8LcSBr_Z1t4dEDXBXPbvUek5taxpfQLTsL3Xmwy7QvG9pyIpolSx8iTBOZjRjdXGcu1cf5eKgUxyXwKxMp/s16000/11_Create_Function_In_RGForFunctionApp.png)
