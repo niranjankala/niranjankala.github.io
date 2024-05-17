@@ -11,7 +11,7 @@ layout: post
 
 ### Introduction
 
-In this blog post, we'll guide you through the process of creating and deploying a C# function to Azure using command-line tools. This article will walk you through creating an HTTP-triggered function that runs on .NET 8 in an isolated worker process. By the end of this post, you will have a functional Azure Function that responds to HTTP requests.
+This blog post will guide you through creating and deploying a C# function to Azure using command-line tools. This article will walk you through creating an HTTP-triggered function that runs on .NET 8 in an isolated worker process. By the end of this post, you will have a functional Azure Function that responds to HTTP requests.
 
 ### Objective
 
@@ -44,19 +44,19 @@ Ensure you have the following installed:
    - Follow the prompts: Click **Next**, accept the agreement, and click **Install**.
 
        ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8Dg0ylkih8DozawwNhS-yGk3MFqkICSRepnCZlXay5KzQh1-PhqLTEm-zgf8JG8ej4TZw26DCludXnXPylzAKCSiFXYqOD68_OuUAhsPr4f1YPp4LK3NT5-uxv84Mp-6OAA8fld4f_1qOzY779r80EL6OhG4c-B6Du6nSeKQ29f1ebVqgN36PS0kY5M1R/s16000/2_Install_Azure_Function_Core_Tools.png)
-   - Click **Finish** once the installation completes.
+   - Click **Finish** once the installation is complete.
 
 ### Step 1: Prerequisite Check
 
 1. Open Command Prompt and execute the following commands to verify your setup:
    - **`func --version`** – This is to check that the Azure Functions Core Tools are version 4.x.
-   - **`dotnet --list-sdks`** – This is to check that the required versions are installed. It should be 6.0 and 8.0
+   - **`dotnet --list-sdks`** – This checks that the required versions are installed. It should be 6.0 and 8.0
    - **`az --version`** to check that the Azure CLI version is 2.4 or later.
    
    ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj62V8itMu-fzpbFBzItinc6wSdKRHvgUxxVoZH30ijYnOo14TD05KMvpY2RZ03-JSiE6OQzTLiT0fYtabo2qSXUHeATcYjHWw4lRRKR-Mlh59AvgzIY4GwcKNtvc7HAjD1aAGUY6ILKxhugfy39v9P10ZtfCI4iFXg_hrQqaga8yOyyze_5vouin2zQSOe/s16000/3_Prerequisite%20check.png)
 
 2. **`az login`** to sign in to Azure and verify an active subscription. Select your login in the browser that opens up. Log in to Azure when prompted:
-   - A browser window will open. Select your Azure account to sign in.
+   - A browser window will open. You can just select your Azure account to sign in.
    - The command prompt will display your Azure login details.
 
    ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSGaHagqj8WW_0Y5NeG-EaVByhNgch-3BoPYI6vETmyCvaNY8knlrLuAgtP9w9YgiCl8WWoyEj1oXcoP4YY_g9PqR4n2WuIvrkg6gbBQyf21d9S_4PRE2LaGCEoq1q3XLtivvFPIE_S5v21yeQhbGiKWE-nYAHIE58qkRUQLmNoglk0MpSFGAvBnqrBnMu/s16000/4_Prerequisite%20check_Azure_Login.png)
@@ -72,7 +72,7 @@ Ensure you have the following installed:
    cd LocalFunctionProj
    ```
 
-   This folder contains various files for the project, including configurations files named local.settings.json and host.json. Because local.settings.json can contain secrets downloaded from Azure, the file is excluded from source control by default in the .gitignore file.
+   This folder contains various files for the project, including configuration files named local.settings.json and host.json. Because local.settings.json can contain secrets downloaded from Azure, the .gitignore file excludes it from source control by default.
 
    ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6eTGfb_0R98P9uJygypC1NKn2BcFkqzxXNQ4IClbO6vNISAptX9sbSkDLvN615GXYc479s5oMREKJxU1GaEqLDcgPNXgaXsuQMUGib2skLUAXkUEWcCAlvJWhKEC6dfho1fLnVLYC9K7lp6RxD_3gp3COQysK8WcQMH8hb05KU9ckiUIaxZ3JZ58N6icA/s16000/6_Create_Azure_Function_Project.png)
 
@@ -117,7 +117,7 @@ Ensure you have the following installed:
    ```sh
    func start
    ```
-    The output says that the worker process started and initialized. Also, the url of the function is displayed.    
+    The output says that the worker process started and initialized. The function's URL is also displayed.    
 2. **Test the function:**
    - Copy the URL from the output and paste it into a browser.
    - You should see a message: "Welcome to Azure Functions!"
@@ -137,11 +137,11 @@ Before you can deploy your function code to Azure, you need to create three reso
 
 - A function app, which provides the environment for executing your function code. A function app maps to your local function project and lets you group functions as a logical unit for easier management, deployment, and sharing of resources.
 
-Use the following commands to create these items. Both Azure CLI and PowerShell are supported.
+You can use the following commands to create these items. Both Azure CLI and PowerShell are supported.
 
 1. **Sign in to Azure:** 
 
-    If you haven't done so already, sign in to Azure: The `az login` command signs you into your Azure account.
+    If you haven't done so, sign in to Azure: The `az login` command signs you into your Azure account.
     ```azurecli
     az login
     ```
@@ -163,7 +163,7 @@ Use the following commands to create these items. Both Azure CLI and PowerShell 
    ```azurecli
    az storage account create --name storaccforazfunc07 --location eastus --resource-group RGForFunctionApp --sku Standard_LRS --allow-blob-public-access false
    ```
-   The **az storage account create** command creates the storage account named **storaccforazfunc07** in the **EastUS** region. The details are populated in the command prompt with a provisioning state succeeded.
+   The **az storage account create** command creates a storage account named **storaccforazfunc07** in the **EastUS** region. The details are populated in the command prompt, and the provisioning state is succeeded.
 
    ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBfrH3i-wZOaHMkq318zrl2NHGcznJlxtvTA8v_08dlxSogRZtoy1oh7DK5IT49vPyy8vdxEM5d85tDfVOrYcb04OPkoGiUBHqQTgpCTCPdfqe-BLa1Rqjj4X4NW5CBgMi-ZPwFqRC93BI-Lj3DHX7noYKZYF-rrallbgitrvrFDSsDjXAzTeCInU65szw/s16000/10_Create_Storage_Account_For_Function_1.png)
    ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6lrUML3jHdSlc3g1ywGyorvOlmx6AjgTaq0F0QxS5Kw7h13qEk5RpjFBp1cs3ujCPGtoSHih4NVOX2lj2-QtPAkgsaL4SOxiRZ6F7aDQQN0XygQFwrBMnBhND58p2OZGB4WPMfoBKNPX87OOyQNyvYjGjFTymUAVB4VKr1cEOzfVfEJLS76z_pzV5iGgt/s16000/10_Create_Storage_Account_For_Function_2.png)
@@ -177,7 +177,7 @@ Use the following commands to create these items. Both Azure CLI and PowerShell 
    ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4PBHIBD1rNo_cr64IDpHNzIWG8vu_MXfgfD-71Hv35NZWO_72lRPK_vdMGz2J4V3JgqMub7mGVW7Pc7MpXklGlvksKipMpNJPQQ99p0-T02_YPrzco7CeLsPDOw-dVUxUB8p4be9VVE3iMHzeTa9iIuNkb8x7P99e7wlAYmxBzUlcKD_BUL7h3jXVgtGj/s16000/12_View_Resources_In_Azure_Portal.png)
 
 ### Step 5: Deploy the Function Project to Azure
-After you've successfully created your function app in Azure, you're now ready to deploy your local functions project by using the **func azure functionapp publish** command.
+After successfully creating your function app in Azure, you're ready to deploy your local functions project using the **func azure functionapp publish** command.
 1. **Deploy the function:**
    ```sh
    func azure functionapp publish appforfunc07
@@ -197,20 +197,20 @@ After you've successfully created your function app in Azure, you're now ready t
 
 2. **View real-time logs:**
 
-    In a separate terminal window or in the browser, call the remote function again. A verbose log of the function execution in Azure is shown in the terminal.
+    Call the remote function again in a separate terminal window or in the browser. The terminal shows a verbose log of the function's execution in Azure.
 
    ```sh
    func azure functionapp logstream appforfunc07
    ```
 
-   - Open another terminal or browser window and call the function URL again to see the logs in real-time.
+   - Open another terminal or browser window and call the function URL again to see the real-time logs.
    - Press `Ctrl+C` to end the logstream session.
 
 ### Step 7: Clean Up Resources
 
 1. **Delete the resource group:** 
 
-    Execute the following command to delete the resource group and all its contained resources. ype y when prompted Are you sure you want to perform this operation and hit Enter. 
+    Execute the following command to delete the resource group and all its contained resources. Confirm if you want to perform this operation and hit Enter. 
 
    ```sh
    az group delete --name RGForFunctionApp
@@ -218,4 +218,4 @@ After you've successfully created your function app in Azure, you're now ready t
 
 #### Conclusion
 
-Congratulations! You've successfully created, tested, and deployed a C# function to Azure using command-line tools. This step-by-step guide has walked you through installing necessary tools, setting up a local development environment, creating and running a function locally, deploying it to Azure, and finally cleaning up the resources. Azure Functions provides a powerful, serverless compute environment to build and deploy scalable, event-driven applications with ease. Happy coding!
+Congratulations! Using command-line tools, you've successfully created, tested, and deployed a C# function to Azure. This step-by-step guide has walked you through installing necessary tools, setting up a local development environment, creating and running a function locally, deploying it to Azure, and finally cleaning up the resources. Azure Functions provides a robust, serverless compute environment to build and quickly deploy scalable, event-driven applications. Happy coding!
