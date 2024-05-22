@@ -20,7 +20,7 @@ By the end of this article, you will be able to create and deploy an application
 
 #### Task 1: Create Azure Cognitive Speech Service Resource
 
-1. Open a tab in your browser and go to the [Speech Services](https://portal.azure.com/#create/Microsoft.CognitiveServicesSpeechServices) page. Sign in with your Azure credentials if prompted.
+1. Open a tab in your browser and go to the [Speech Services](https://portal.azure.com/#create/Microsoft.CognitiveServicesSpeechServices) page. If prompted, sign in with your Azure credentials.
 
 2. On the Create page, provide the following information and click on **Review + create**:
 
@@ -39,7 +39,7 @@ By the end of this article, you will be able to create and deploy an application
 
    ![Validation Passed](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjV6tuQEzFzxX_xDMjsT-9a6r58cuK8RvlCel0Z1NH-ATeur7JEEhG6_leVEN54-vUGmK6RlkrQ0WYIDnJmUxskYLW0KOaANXwj36n0VSRnDSnGktdLJ8gJxog2VA72KY_rOzFRYskROF_dxxfPtJMwZeQC2TZwXIp7DPUIfOCTxyTFu1CBCRyaa3_F-n0W/s16000/create_speech_service_3.jpg)
 
-4. Wait for the deployment to complete and then click on **Go to resource**.
+4. Wait for the deployment to complete, then click on **Go to resource**.
 
    ![Deployment Complete](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaXkyDGumPU4m3mBwjRWiUD0B28DpX0H8rrI6rBjLyCRCsu7KC5ncplW8S6xtxv4WksN6jWzoL46V1yqeVDgGnNGUGx43w6Mn5zDMQoflJCSSwgxYVd3VOormrUTSYxT5NZv-PoOoJBK7pdVXwl00GizEZHza7W5C_wjv2VofzGj_68Z9BeCYdwiN6aloe/s16000/1_Speech_Service_Go%20to%20resource.png)
 
@@ -62,7 +62,7 @@ By the end of this article, you will be able to create and deploy an application
    - **Region**: East US
    - **Name**: CognitivelanguageResourceXX (Replace XX with any random number)
    - **Pricing tier**: Free (F0)
-   - **Select checkbox**: By checking this box I certify that I have reviewed and acknowledge the terms in the Responsible AI Notice.
+   - **Select checkbox**: By checking this box, I certify that I have reviewed and acknowledged the Responsible AI Notice terms.
 
    ![Create Language Service](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjho7U5n9pIY5EMo3qhlrdcS9VI5eOSCpiYEjWvlmyrNOnwpqVhXABP8kllu3wZueZULmLSnMnywhb-OdiGzX1NJxYkuMEKRIoUp5bDp5g3u4RYRojauKt_tTiLK2BjZ-VMmcNyLSSje3HockldSBdrgFKUIQpemNUt6XLQXnDWz6HVAbyWJWyVRf3E0wMs/s16000/TextAnalytics_create_language_service.jpg)
    ![Create Language Service](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTiCDBeUgrHwcl7gqMTD5luAJgcp_SrlrdUy3DxcSc5CzBy4stobhSKTN46-i4Y4XXZcSDr4kABA7lVUt5X0cYSjeJ6AKS8bwrlHJXeS0fB4mF7QO08u1Nq67PNCM4sIVBG2wxr4SlfvkIIfIe0Oi8xXy4yc7JMIAYZINhgsHorbmxgm6hqetPHqFOy6eW/s16000/TextAnalytics_create_language_service_1.jpg)
@@ -71,7 +71,7 @@ By the end of this article, you will be able to create and deploy an application
 
    ![Review and Create](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkBVMUXRFIYKcLHXicZyvL1r2GXhv-CYDjDbrnOVunLJbqytpE9XQTGYR5kpvulDEEtcJw9d4wnrkVmCSyTBdfPonLBZ6cD8Fnjf0anOu2O4y5Pylh8qFX64MSVfrailsVyqIBSjFQAFZXlaFI4S8ylJLg3HCkU-yK-abFTiXipNHGr6RczkFWC83Nauw_/s16000/TextAnalytics_review_create.jpg)
 
-5. Wait for the deployment to complete and once successful, click on **Go to resource group**.
+5. Wait for the deployment to complete, and once successful, click on **Go to resource group**.
 
    ![Deployment Successful](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvAumKchfOd7CS5ipXRjptsw2KtXbmySSmcfcsrZAB4bpEsr8BV6kuI7_qq1IsPhW_CUCYp_iwh6ORE4cS9FoNtVm4vZfH2zi383zi5Y_ylGC9Jr7tN2G8vMMGrlNG96G59uZ0bRfmQkZl-hgskzFQpPSXZd4iLT-GOTjdK_wrcLCOufFKNq_OmB9yIIrr/s16000/3_TextAnalytics_Go%20to%20resource.png)
 
@@ -106,7 +106,7 @@ Your application must be authenticated to access Cognitive Services resources. U
 
    ![Set Environment Variables](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLlYipB9IDoXfdrISqiL40WFLY7zasKwGsq0hQ-JeZCO59b1wuGf1-4sveFE1HpGAGrd2TSUl_lc0SwwNUAenj56rcrSqTC1dYkAbpiYibv1jxr6AkDhFPyKKrRcKyV69bwkUiNPHXo4rYH92QsPECQ4D21csWdI41rW-aWsPsA2J_2WG9UmN79TNnE_8U/s16000/6_Set_Environment%20variable.png)
 
-3. After you add the environment variables, restart any running programs that will need to read the environment variable, including the console window. Close the Command Prompt and open it again.
+3. After adding the environment variables, restart any running programs that need to read the environment variable, including the console window. Close the Command Prompt and open it again.
 
 #### Task 2: Translate Speech from a Microphone
 
@@ -126,7 +126,7 @@ Your application must be authenticated to access Cognitive Services resources. U
 
    ![Install Speech SDK](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiy8XKxc6UoNc1hvc9IFcvTENvNv3A4gAuOQ30WR5HDgxQNqiVgZVBMyEdrjAgJ3Q-bJUUKcW2ybwp6DYQ32cxwPScA6OOq6Ad7pV4WQPXVN1izWTO0uohP88fcjLo-YZbA1tcRcgaYdte8jNLnhBoVfppRqCK3PKFyYJXA1qCk27brvvKDrm5H7PFRdYsI/s16000/8_Add_Reference_CognitiveServices_Speech.png)
 
-3. Open the `Program.cs` file in Notepad from `Speech-to-Text` project folder. Replace the contents of `Program.cs` with the following code:
+3. Open the `Program.cs` file in Notepad from the `Speech-to-Text` project folder. Replace the contents of `Program.cs` with the following code:
 
    ```csharp
    using System;
@@ -196,7 +196,7 @@ Your application must be authenticated to access Cognitive Services resources. U
 5. Speak into your microphone when prompted. What you speak should be output as translated text in the target language:
 
    ```text
-   Speak this: The Speech service provides speech to text and text to speech capabilities with an Azure Speech resource and then press Enter.
+   Speak this: The Speech service provides speech-to-text and text-to-speech capabilities with an Azure Speech resource and then press Enter.
    ```
 
    ![Speak Into Microphone](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgv3Wcw5zDcJTURuPiS43JFvjypXkwYEPYBxWcpvj4m0jIlPC-ushVO6yipD8UdgeN1AI6FGH8nG_aWEMaWkC3-UFryF4Q_s5PriNkPK2zRPRWBqSKB6qknwQEcHhQ9fDmRR70O3q1hye49bwQ43ZJ3Fzc7Whj7cNLEx273ULY5L7wsZ06evPfE88hw8a9g/s16000/9_CognitiveServices_Speech_Output.png)
