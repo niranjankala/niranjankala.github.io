@@ -2,7 +2,7 @@
 title: "Git Remote Management: Add, Rename, Change, and Remove Like a Pro"
 published: true
 description: "Git Remote Management: Add, Rename, Change, and Remove Like a Pro"
-tags: git, GitHub
+tags: git GitHub
 cover_image: 
 canonical_url: https://niranjankala.in/post/git-remote-management-add-rename-change-and-remove-like-a-pro
 layout: post
