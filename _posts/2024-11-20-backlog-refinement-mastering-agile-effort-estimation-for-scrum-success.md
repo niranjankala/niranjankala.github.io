@@ -35,7 +35,7 @@ In a project to develop a corporate website:
 - **Extra Large Task:** Developing a custom CMS for managing the website.  
 T-shirt sizing helps the team quickly group tasks and focus on detailed planning only for high-priority items.
 
-
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSeeQSpaq8x4RcxSTJ-yX4OSCOZmdF36Xgp1_LGjhyphenhyphen9BlNvOMkXBBRvhOa0o1vC0pk5vLLNeoo2uCnxGgD_PE9iLiiYw0CFRogn6BbLLC_hUUS-uC9pn6aExn0GfIBeliGTTOT66XI2ButY9qU8Lb5drBK3VvEPC3o8Lli4dd7h_MbRqx0L0HHZbO6sP_h/s16000/agile-t-shirt-size-estimation.png)
 
 #### **2. Story Points**  
 **What It Is:** Story points assign a numerical value to tasks based on effort, complexity, and risk, often using the Fibonacci sequence (1, 2, 3, 5, 8, 13…).  
