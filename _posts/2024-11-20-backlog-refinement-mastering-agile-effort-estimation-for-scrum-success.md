@@ -9,14 +9,14 @@ layout: post
 ---
 
 ### **Introduction**  
-In Agile development, a well-prioritized Product Backlog is essential to ensure smooth sprint execution. Backlog refinement and effort estimation help teams gauge the effort required to complete tasks, set achievable goals, and deliver value consistently. This blog explores several Agile estimation techniques with real-world examples, making it easier to apply these strategies in your projects.
+In Agile development, a well-prioritized Product Backlog is essential to ensure smooth sprint execution. Backlog refinement and effort estimation help teams gauge the effort required to complete tasks, set achievable goals, and deliver value consistently. This blog explores several Agile estimation techniques with real-world examples, making applying these strategies in your projects easier.
 
 
 
 ### **Objectives**  
 By the end of this blog, you will:  
 1. Understand the importance of backlog refinement in Agile.  
-2. Learn about different effort estimation techniques such as T-shirt sizes, story points, Planning Poker™, and more.  
+2. Learn different effort estimation techniques such as T-shirt sizes, story points, Planning Poker™, and more.  
 3. Explore real-world examples that demonstrate how these methods work in practice.  
 4. Discover how effort estimation promotes team inclusivity, effort discovery, and better sprint planning.  
 
@@ -75,13 +75,13 @@ In a backlog grooming session for a fintech app:
   4. Enhancing the app’s dashboard UI.  
   5. Developing a referral rewards program.  
 - Each team member gets 5 dots to allocate.  
-- Most dots go to the credit score calculator and authentication feature due to their high impact.  
+- Most points are allocated to the credit score calculator and authentication feature due to their significant impact.  
 Dot voting helps the team decide where to invest effort and resources first.
 
 
 
 #### **5. The Bucket System**  
-**What It Is:** Tasks are placed into buckets that represent effort levels, ranging from low to high.  
+**What It Is:** Tasks are organized into categories that reflect different levels of effort, ranging from low to high.  
 
 **Real-World Example:**  
 In a data migration project for an HRMS system:  
