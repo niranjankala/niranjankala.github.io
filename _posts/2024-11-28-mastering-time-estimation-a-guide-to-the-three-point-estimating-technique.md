@@ -40,9 +40,9 @@ Document the assumptions underlying each estimate. For instance, if you’re tra
 
 **Step 4: Calculate the Final Estimate**  
 Using the gathered data, calculate an average or weighted estimate to guide your project planning. A commonly used formula is:  
-\[
+$$
 \text{Final Estimate} = \frac{\text{Optimistic} + 4(\text{Most Likely}) + \text{Pessimistic}}{6}
-\]  
+$$ 
 
 ---
 
@@ -68,9 +68,9 @@ Using the gathered data, calculate an average or weighted estimate to guide your
   - Estimated time: **6 days**.  
 
 **Final Estimate**: Using the formula:  
-\[
+$$
 \text{Final Estimate} = \frac{4 + 4(6) + 144}{6} \approx 6 \text{ hours}
-\]  
+$$  
 
 ---
 
