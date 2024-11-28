@@ -2,7 +2,7 @@
 title: "Mastering Time Estimation: A Guide to the Three-Point Estimating Technique"
 published: true
 description: "Mastering Time Estimation: A Guide to the Three-Point Estimating Technique"
-tags: agile
+tags: agile,estimation
 cover_image: 
 canonical_url: https://niranjankala.in/post/mastering-time-estimation-a-guide-to-the-three-point-estimating-technique
 layout: post
@@ -41,8 +41,7 @@ Document the assumptions underlying each estimate. For instance, if you’re tra
 **Step 4: Calculate the Final Estimate**  
 Using the gathered data, calculate an average or weighted estimate to guide your project planning. A commonly used formula is:  
 
-${Final Estimate} = \frac{{Optimistic} + 4(\text{Most Likely}) + \text{Pessimistic}}{6}$
-
+${Final Estimate} = \frac{{{"{{"}}Optimistic{{"}}"}} + 4(\text{Most Likely}) + \text{Pessimistic}}{6}$
 
 
 
@@ -69,8 +68,7 @@ ${Final Estimate} = \frac{{Optimistic} + 4(\text{Most Likely}) + \text{Pessimist
 
 **Final Estimate**: Using the formula:  
 
-${Final Estimate} = \frac{4 + 4(6) + 144}{6} \approx 6 \text{ hours}$
- 
+${Final Estimate} = \frac{{{"{{"}}4{{"}}"}} + 4(6) + {{"{{"}}144{{"}}"}}}{6} \approx 6 \text{ hours}$ 
 
 
 
