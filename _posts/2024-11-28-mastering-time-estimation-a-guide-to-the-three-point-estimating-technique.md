@@ -13,7 +13,7 @@ Accurate time estimation is a cornerstone of effective project management. Wheth
 
 In this blog, we’ll dive into the three-point estimating process, its benefits, and practical examples to help you incorporate it into your projects.
 
-
+---
 
 ### **What is Three-Point Estimating?**  
 Three-point estimating is a predictive method that combines data from optimistic, most likely, and pessimistic scenarios to derive a realistic time estimate. By evaluating the potential risks and uncertainties of a task, project managers can avoid underestimating or overestimating timelines.
@@ -22,7 +22,7 @@ Three-point estimating is a predictive method that combines data from optimistic
 - **Most Likely Estimate**: Reflects a realistic outcome based on past experiences and usual circumstances.
 - **Pessimistic Estimate**: Accounts for the worst-case scenario where multiple issues occur.
 
-
+---
 
 ### **The Process of Three-Point Estimating**  
 
@@ -40,10 +40,11 @@ Document the assumptions underlying each estimate. For instance, if you’re tra
 
 **Step 4: Calculate the Final Estimate**  
 Using the gathered data, calculate an average or weighted estimate to guide your project planning. A commonly used formula is:  
+\[
+\text{Final Estimate} = \frac{\text{Optimistic} + 4(\text{Most Likely}) + \text{Pessimistic}}{6}
+\]  
 
-${Final Estimate} = \frac{{{"{{"}}Optimistic{{"}}"}} + 4(\text{Most Likely}) + \text{Pessimistic}}{6}$
-
-
+---
 
 ### **Practical Example: Sauce and Spoon Tablet Training Project**  
 
@@ -67,10 +68,11 @@ ${Final Estimate} = \frac{{{"{{"}}Optimistic{{"}}"}} + 4(\text{Most Likely}) + \
   - Estimated time: **6 days**.  
 
 **Final Estimate**: Using the formula:  
+\[
+\text{Final Estimate} = \frac{4 + 4(6) + 144}{6} \approx 6 \text{ hours}
+\]  
 
-${Final Estimate} = \frac{{{"{{"}}4{{"}}"}} + 4(6) + {{"{{"}}144{{"}}"}}}{6} \approx 6 \text{ hours}$ 
-
-
+---
 
 ### **Benefits of Three-Point Estimating**  
 1. **Risk Mitigation**: Helps identify and plan for potential delays and disruptions.  
@@ -78,7 +80,7 @@ ${Final Estimate} = \frac{{{"{{"}}4{{"}}"}} + 4(6) + {{"{{"}}144{{"}}"}}}{6} \ap
 3. **Transparency**: Provides stakeholders with a clear understanding of project timelines.  
 4. **Flexibility**: Accounts for uncertainties without excessively padding the schedule.  
 
-
+---
 
 ### **Tips for Effective Three-Point Estimating**  
 - **Encourage Collaboration**: Involve team members with relevant expertise.  
@@ -86,14 +88,12 @@ ${Final Estimate} = \frac{{{"{{"}}4{{"}}"}} + 4(6) + {{"{{"}}144{{"}}"}}}{6} \ap
 - **Document Assumptions**: Clearly outline conditions for each estimate.  
 - **Revisit Estimates**: Update predictions as new information becomes available.  
 
-
+---
 
 **Conclusion**  
 The three-point estimating technique is a powerful tool for project managers aiming to balance optimism with realism. By breaking tasks into scenarios and engaging with experts, you can ensure your project timeline is well-informed and adaptable.  
 
 Next time you plan a project, consider applying three-point estimating to gain a clearer picture of what lies ahead. Let this technique guide you toward meeting deadlines and achieving success with confidence.  
-
-Have you used three-point estimating in your projects? Share your experiences in the comments!
 
 ---
 **Sponsor:** Elevate your business with Arise Informatics Solutions. Empowering you with tailored strategies, cutting-edge technologies, and trusted partnerships to drive innovation and growth. Partner with Arise to shape a smarter tomorrow! [Contact Arise today.](https://arisein.com/contact/)
