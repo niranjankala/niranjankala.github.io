@@ -8,10 +8,11 @@ canonical_url: https://niranjankala.in/post/mastering-time-estimation-a-guide-to
 layout: post
 ---
 
-**Introduction**  
+### **Introduction**  
 Accurate time estimation is fundamental to effective project management. Whether you're launching a product or organizing a training program, understanding how long each task will take is crucial for creating realistic schedules and meeting deadlines. One effective method for this is the *Three-Point Estimating Technique*, which takes into account the best-case, most likely, and worst-case scenarios for each task.
 
 In this blog, we will explore the three-point estimating process, its benefits, and provide practical examples to help you implement it effectively in your projects.
+
 ---
 
 ### **What is Three-Point Estimating?**  
@@ -68,7 +69,7 @@ $$
 
 **Final Estimate**: Using the formula:  
 $$
-\text{Final Estimate} = \frac{4 + 4(6) + 144}{6} \approx 6 \text{ hours}
+\text{Final Estimate} = \frac{4 + 4(6) + 144}{6} \approx 28.67 \text{ hours}
 $$  
 
 ---
