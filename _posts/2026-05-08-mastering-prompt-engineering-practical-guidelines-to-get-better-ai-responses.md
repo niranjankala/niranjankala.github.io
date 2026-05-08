@@ -96,4 +96,4 @@ Negativity can derail a retrospective if it is not addressed carefully. Creating
 Retrospectives are valuable tools for promoting continuous improvement, enhancing collaboration, and fostering accountability. By establishing a safe environment, encouraging participation, emphasizing accountability, and addressing negativity, project managers can turn retrospectives into crucial moments for team and project development.  
 
 ---
-**Sponsor:** Elevate your business with Arise Informatics. Empowering you with tailored strategies, cutting-edge technologies, and trusted partnerships to drive innovation and growth. Partner with Arise to shape a smarter tomorrow! [Contact Arise today.](https://arisein.com/contact/)
+**Sponsor:** Elevate your business with Arise Informatics Solutions. Empowering you with tailored strategies, cutting-edge technologies, and trusted partnerships to drive innovation and growth. Partner with Arise to shape a smarter tomorrow! [Contact Arise today.](https://arisein.com/contact/)
